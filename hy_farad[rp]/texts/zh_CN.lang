@@ -1,0 +1,10 @@
+entity.hy_farjy:banker.name=银行推销员
+item.spawn_egg.entity.hy_farjy:banker.name=生成银行推销员
+entity.banker=银行推销员
+hy_farjy.item_name_display.stone_coin_lottery.name=石币奖券
+hy_farjy.item_name_display.stone_coin_lottery.instruction=§o§7一张神秘的奖券，不知道会获得多少宝藏呢...
+hy_farjy.item_name_display.stone_coin_lottery.warning=§r§c§l若要使用此物品，您需要保证您拥有Stone Craft（石头工艺）Addon！
+hy_farjy.item_name_display.stone_coin_lottery.earn=§r§l§b奖品：50~64石币
+item.hy_farjy:imitation_gold_coin=仿制金币
+item.hy_farjy:imitation_copper_coin=仿制铜币
+item.hy_farjy:imitation_diamond_coin=仿制钻石币

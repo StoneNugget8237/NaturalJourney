@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy_farjy:gold_coin_lottery",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+              "texture": "hy_farjy.gold_coin_lottery"
+            },
+            "minecraft:display_name":{
+              "value": "金币奖券\n§o§7一张神秘的奖券，不知道会获得多少宝藏呢...\n§r§l§b奖品：17~24金币"
+            },
+            "minecraft:creative_category": { 
+              "parent": "itemGroup.name.items" 
+            }
+        }
+    }
+}
