@@ -1,2 +1,2 @@
-# hysit_project
-The official repository of Hidden Years : Stable Imitation Tools ('HYSIT')
+# hy_farjy
+The official repository of Hidden Years:The Farther Journey ('HY_FARJY')
