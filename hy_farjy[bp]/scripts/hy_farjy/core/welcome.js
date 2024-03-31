@@ -11,7 +11,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
     return;
   }
   const player = event.player;
-  if (warned || !player.isOp()) {
+  if (warned && !player.isOp()) {
     return;
   }
   if (semver.lt(latestLoadedHyFarjyVersion, version)) {
