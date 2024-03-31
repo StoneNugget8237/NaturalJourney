@@ -2,8 +2,12 @@ import { world } from "@minecraft/server";
 import { version } from "../../main";
 import * as semver from "../../dependencies/semver";
 
-const latestLoadedHyFarjyVersion =
-  world.getDynamicProperty("LatestLoadedHyfarjyAddonVersion") ?? "0.0.0";
+let latestLoadedHyFarjyVersion = world.getDynamicProperty(
+  "LatestLoadedHyfarjyAddonVersion",
+);
+if (typeof latestLoadedHyFarjyVersion !== "string") {
+  latestLoadedHyFarjyVersion = "0.0.0";
+}
 let warned = false;
 
 world.afterEvents.playerSpawn.subscribe((event) => {
