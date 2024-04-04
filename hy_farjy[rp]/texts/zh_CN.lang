@@ -1,3 +1,5 @@
+pack.name=隐藏之年·更远的旅程·资源包
+pack.description=更远的旅程，更大的冒险！丨测试版0.1.0+build.3丨若您发现任何问题，敬请前往隐藏之年交流圈（QQ群：499251252）向我们提出反馈！
 entity.hy_farjy:banker.name=银行推销员
 item.spawn_egg.entity.hy_farjy:banker.name=生成银行推销员
 entity.banker=银行推销员
@@ -8,3 +10,6 @@ hy_farjy.item_name_display.stone_coin_lottery.earn=§r§l§b奖品：50~64石币
 item.hy_farjy:imitation_gold_coin=仿制金币
 item.hy_farjy:imitation_copper_coin=仿制铜币
 item.hy_farjy:imitation_diamond_coin=仿制钻石币
+hy_farjy.version=§b已成功加载隐藏之年·更远的旅程版本0.1.0+build.3
+hy_farjy.update=§6当前版本更新内容：漏洞修复+技术性更改
+hy_farjy.copyright=§r本Addon由星屹工作室制作，若遇漏洞，敬请前往隐藏之年交流圈向我们提出反馈！
