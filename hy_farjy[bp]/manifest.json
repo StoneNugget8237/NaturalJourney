@@ -40,5 +40,6 @@
 			"module_name": "@minecraft/server",
 			"version": "1.8.0-beta"
 		}
-	]
+	],
+	"capabilities": ["script_eval"]
 }
