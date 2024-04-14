@@ -1,15 +1,36 @@
+//core
 pack.name=Hidden Years·The Farther Journey·Behavior Pack
-pack.description=The farther journey, the greater advanture!丨Preview 0.1.0+build.3丨If you find any questions, please give us feedback at §oHidden Years Players' Zone §r(QQ group:499251252)
+pack.description=The farther journey, the greater advanture!丨Preview 0.1.1-build.1丨If you find any questions, please give us feedback at §oHidden Years Players' Zone §r(QQ group:499251252)
+hy_farjy.version=§bSuccessfully loaded Hidden Years·The Farther Journey v0.1.1-build.1
+hy_farjy.update=§6Changes in this version:Enhance Dust&Stable Imitation Swords
+hy_farjy.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios. Please give us feedback at trusted publishing channels(e.g. klpbbs.com) or §oHidden Years Players' Zone§r!
+
+//gameplay
 entity.hy_farjy:banker.name=Bank Seller
 item.spawn_egg.entity.hy_farjy:banker.name=Spawn Bank Seller
 entity.banker=Bank Seller
 hy_farjy.item_name_display.stone_coin_lottery.name=Stone Coin Lottery
-hy_farjy.item_name_display.stone_coin_lottery.instruction=§o§7A mysterious lottery, will I get something valuable this time?
+hy_farjy.item_name_display.lottery.instruction=§o§7A mysterious lottery, will I get something valuable this time?
 hy_farjy.item_name_display.stone_coin_lottery.warning=§r§cIf you want to use this item, please make sure that you have Stone Craft Addon!
 hy_farjy.item_name_display.stone_coin_lottery.earn=§r§bPrize: 50~64 Stone Coins
+hy_farjy.item_name_display.copper_coin_lottery.name=Copper Coin Lottery
+hy_farjy.item_name_display.copper_coin_lottery.earn=§r§bPrize: 15~25 Copper Coins
+hy_farjy.item_name_display.emerald_lottery.name=Emerald Lottery
+hy_farjy.item_name_display.emerald_lottery.earn=§r§bPrize: 17~23 Emeralds
+hy_farjy.item_name_display.diamond_coin_lottery.name=Diamond Lottery
+hy_farjy.item_name_display.diamond_coin_lottery.earn=§r§bPrize: 2~4 Diamond Coins
+hy_farjy.item_name_display.gold_coin_lottery.name=Gold Coin Lottery
+hy_farjy.item_name_display.gold_coin_lottery.earn=§r§bPrize: 17~24 Gold Coins
 item.hy_farjy:imitation_gold_coin=Imitation Gold Coin
 item.hy_farjy:imitation_copper_coin=Imitation Copper Coin
 item.hy_farjy:imitation_diamond_coin=Imitation Diamond Coin
-hy_farjy.version=§bSuccessfully loaded Hidden Years·The Farther Journey v0.1.0+build.3
-hy_farjy.update=§6Changes in this version:bug fix&technological changes
-hy_farjy.copyright=§rThis Addon is maken by CTN Studios.If you find any bugs, please give us feedback at §oHidden Years Players' Zone
+item.hy_farjy:iron_enhance_dust=Iron Enhance Dust
+item.hy_farjy:gold_enhance_dust=Gold Enhance Dust
+item.hy_farjy:elementary_stable_iames=Elementary Stable Imitation Amethyst Sword
+item.hy_farjy:elementary_stable_ids=Elementary Stable Imitation Diamond Sword
+item.hy_farjy:elementary_stable_igs=Elementary Stable Imitation Gold Sword
+item.hy_farjy:elementary_stable_iis=Elementary Stable Imitation Iron Sword
+item.hy_farjy:stable_iames=Stable Imitation Amethyst Sword
+item.hy_farjy:stable_ids=Stable Imitation Diamond Sword
+item.hy_farjy:stable_igs=Stable Imitation Gold Sword
+item.hy_farjy:stable_iis=Stable Imitation Iron Sword

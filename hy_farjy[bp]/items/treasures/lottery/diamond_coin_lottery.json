@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hy_farjy:diamond_coin_lottery",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+              "texture": "hy_farjy.diamond_coin_lottery"
+            },
+            "minecraft:display_name":{
+              "value": "%hy_farjy.item_name_display.diamond_coin_lottery.name\n%hy_farjy.item_name_display.lottery.instruction\n%hy_farjy.item_name_display.diamond_coin_lottery.earn"
+            },
+            "minecraft:creative_category": { 
+              "parent": "itemGroup.name.items" 
+            }
+        }
+    }
+}

@@ -25,6 +25,12 @@
         },
         "hy_farjy.imitation_diamond_coin": {
             "textures": "textures/items/imitation_diamond_coin"
+        },
+        "hy_farjy.iron_enhance_dust": {
+            "textures": "textures/items/iron_enhance_dust"
+        },
+        "hy_farjy.gold_enhance_dust": {
+            "textures": "textures/items/gold_enhance_dust"
         }
     }
 }
