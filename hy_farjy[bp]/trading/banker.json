@@ -209,9 +209,153 @@
                 ],
                 "gives": [
                   {
-                    "item": "hy_farad:copper_coin_lottery"
+                    "item": "hy_farjy:copper_coin_lottery",
+                    "quantity":1
                   }
-                ]
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity":{
+                      "min": 19,
+                      "max": 22
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hy_farjy:gold_coin_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity":{
+                      "min": 14,
+                      "max": 18
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hy_farjy:diamond_coin_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity":{
+                      "min": 4,
+                      "max": 6
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hy_farjy:stone_coin_lottery"
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "sc:stone_coin",
+                    "quantity":{
+                      "min": 54,
+                      "max": 62
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hy_farjy:emerald_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              }
+              ,
+              {
+                "wants": [
+                  {
+                    "item": "hy:copper_coin",
+                    "quantity":{
+                      "min": 15,
+                      "max": 21
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hy_farjy:emerald_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "hy:gold_coin",
+                    "quantity":{
+                      "min": 16,
+                      "max": 20
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hy_farjy:emerald_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "hy:diamond_coin",
+                    "quantity":{
+                      "min": 2,
+                      "max": 3
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hy_farjy:emerald_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
               }
             ]
           }

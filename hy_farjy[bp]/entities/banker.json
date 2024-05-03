@@ -31,7 +31,7 @@
             },
             "minecraft:behavior.random_stroll": {
               "priority": 5,
-              "speed_multiplier": 1
+              "speed_multiplier": 0.5
           },          
             "minecraft:behavior.drink_potion": {
                 "priority": 1,

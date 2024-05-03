@@ -1,14 +1,14 @@
 //core
-pack.name=Hidden Years·The Farther Journey·Behavior Pack
-pack.description=The farther journey, the greater advanture!丨Preview 0.1.1-build.2丨If you find any questions, please give us feedback at §oHidden Years Players' Zone §r(QQ group:499251252)
-hy_farjy.version=§bSuccessfully loaded Hidden Years·The Farther Journey v0.1.1-build.2
-hy_farjy.update=§6Changes in this version:Stable Imitation Swords
-hy_farjy.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios. Please give us feedback at trusted publishing channels(e.g. klpbbs.com) or §oHidden Years Players' Zone§r!
+pack.name=Hidden Years·The Farther Journey·Resource Pack
+pack.description=The farther journey, the greater advanture!丨Preview 0.1.1-build.3丨If you find any problems, please give us feedback at §oHidden Years Players' Zone §r(QQ group:499251252)
+hy_farjy.version=§bSuccessfully loaded Hidden Years·The Farther Journey v0.1.1-build.3
+hy_farjy.update=§6Changes in this version:Stable Imitation Axes, enhance table, new enhance dusts, bug fix
+hy_farjy.copyright=§rThis Addon is made by @StoneNugget and @RawDiamondMC, copyright belongs to CTN Studios. Please give us feedback at trusted publishing channels(e.g. klpbbs.com) or §oHidden Years Players' Zone§r!
 
 //gameplay
-entity.hy_farjy:banker.name=Bank Seller
-item.spawn_egg.entity.hy_farjy:banker.name=Spawn Bank Seller
-entity.banker=Bank Seller
+entity.hy_farjy:banker.name=Lottery Trader
+item.spawn_egg.entity.hy_farjy:banker.name=Spawn Lottery Trader
+entity.banker=Lottery Trader
 hy_farjy.item_name_display.stone_coin_lottery.name=Stone Coin Lottery
 hy_farjy.item_name_display.lottery.instruction=§o§7A mysterious lottery, will I get something valuable this time?
 hy_farjy.item_name_display.stone_coin_lottery.warning=§r§cIf you want to use this item, please make sure that you have Stone Craft Addon!
@@ -26,11 +26,16 @@ item.hy_farjy:imitation_copper_coin=Imitation Copper Coin
 item.hy_farjy:imitation_diamond_coin=Imitation Diamond Coin
 item.hy_farjy:iron_enhance_dust=Iron Enhance Dust
 item.hy_farjy:gold_enhance_dust=Gold Enhance Dust
-item.hy_farjy:elementary_stable_iames=Elementary Stable Imitation Amethyst Sword
-item.hy_farjy:elementary_stable_ids=Elementary Stable Imitation Diamond Sword
-item.hy_farjy:elementary_stable_igs=Elementary Stable Imitation Gold Sword
-item.hy_farjy:elementary_stable_iis=Elementary Stable Imitation Iron Sword
 item.hy_farjy:stable_iames=Stable Imitation Amethyst Sword
 item.hy_farjy:stable_ids=Stable Imitation Diamond Sword
 item.hy_farjy:stable_igs=Stable Imitation Gold Sword
 item.hy_farjy:stable_iis=Stable Imitation Iron Sword
+item.hy_farjy:stable_iameaxe=Stable Imitation Amethyst Axe
+item.hy_farjy:stable_idaxe=Stable Imitation Diamond Axe
+item.hy_farjy:stable_igaxe=Stable Imitation Gold Axe
+item.hy_farjy:stable_iiaxe=Stable Imitation Iron Axe
+tile.hy_farjy:enhance_table.name=Enhance Table
+tile.hy_farjy:enhance_table=Enhancing
+hy_farjy:enhance_table.name=Enhancing
+item.hy_farjy:amethyst_enhance_dust=Amethyst Enhance Dust
+item.hy_farjy:diamond_enhance_dust=Diamond Enhance Dust

@@ -1,0 +1,17 @@
+{
+  "texture_name": "atlas.terrain",
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "hy_farjy",
+  "texture_data": {
+    "hy_farjy.enhance_table_up": {
+      "textures": "textures/blocks/enhance_table_up" 
+    },
+    "hy_farjy.enhance_table_side": {
+      "textures": "textures/blocks/enhance_table_side" 
+    },
+    "hy_farjy.dark_oak_log_side": {
+      "textures": "textures/blocks/log_oak" 
+    }
+  }
+}

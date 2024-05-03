@@ -31,6 +31,12 @@
         },
         "hy_farjy.gold_enhance_dust": {
             "textures": "textures/items/gold_enhance_dust"
+        },
+        "hy_farjy.amethyst_enhance_dust": {
+            "textures": "textures/items/amethyst_enhance_dust"
+        },
+        "hy_farjy.diamond_enhance_dust": {
+            "textures": "textures/items/diamond_enhance_dust"
         }
     }
 }

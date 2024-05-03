@@ -93,6 +93,22 @@ world.afterEvents.entityHitEntity.subscribe((event)=>{
         var result=imatationtoolusing(player, item, "§7『稳定的仿制铁剑』" )
         player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
         break;
+      case "hy_farjy:stable_iameaxe":
+        var result=imatationtoolusing(player, item, "§d『稳定的仿制紫水晶斧』" )
+        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
+        break;
+      case "hy_farjy:stable_idaxe":
+        var result=imatationtoolusing(player, item, "§b『稳定的仿制钻石斧』" )
+        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
+        break;
+      case "hy_farjy:stable_igaxe":
+        var result=imatationtoolusing(player, item, "§e『稳定的仿制黄金斧』" )
+        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
+        break;
+      case "hy_farjy:stable_iiaxe":
+        var result=imatationtoolusing(player, item, "§7『稳定的仿制铁斧』" )
+        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
+        break;
     }
   })
 })
