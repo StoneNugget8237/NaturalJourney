@@ -14,7 +14,88 @@
             },
             "minecraft:creative_category": { 
               "parent": "itemGroup.name.items" 
+            },
+            "minecraft:on_use":{
+              "on_use": {
+                "event": "hy_farjy.lottery_use"
+              }
             }
+        },
+        "events": {
+          "hy_farjy.lottery_use":{
+            "randomize":[
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:emerald_lottery -1 1",
+                    "give @p minecraft:emerald 17"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:emerald_lottery -1 1",
+                    "give @p minecraft:emerald 18"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:emerald_lottery -1 1",
+                    "give @p minecraft:emerald 19"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:emerald_lottery -1 1",
+                    "give @p minecraft:emerald 20"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:emerald_lottery -1 1",
+                    "give @p minecraft:emerald 21"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:emerald_lottery -1 1",
+                    "give @p minecraft:emerald 22"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:emerald_lottery -1 1",
+                    "give @p minecraft:emerald 23"
+                  ],
+                  "target": "holder"
+                }
+              }
+            ]
+          }
         }
     }
 }

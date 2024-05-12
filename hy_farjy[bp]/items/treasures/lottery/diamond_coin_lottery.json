@@ -14,7 +14,48 @@
             },
             "minecraft:creative_category": { 
               "parent": "itemGroup.name.items" 
+            },
+            "minecraft:on_use":{
+              "on_use": {
+                "event": "hy_farjy.lottery_use"
+              }
             }
+        },
+        "events": {
+          "hy_farjy.lottery_use":{
+            "randomize":[
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:diamond_coin_lottery -1 1",
+                    "give @p hy:diamond_coin 2"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:diamond_coin_lottery -1 1",
+                    "give @p hy:diamond_coin 3"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:diamond_coin_lottery -1 1",
+                    "give @p hy:diamond_coin 4"
+                  ],
+                  "target": "holder"
+                }
+              }
+            ]
+          }
         }
     }
 }

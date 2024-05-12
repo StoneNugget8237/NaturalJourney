@@ -14,7 +14,168 @@
             },
             "minecraft:creative_category": { 
               "parent": "itemGroup.name.items" 
+            },
+            "minecraft:on_use":{
+              "on_use": {
+                "event": "hy_farjy.lottery_use"
+              }
             }
+        },
+        "events": {
+          "hy_farjy.lottery_use":{
+            "randomize":[
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 50"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 51"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 52"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 53"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 54"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 55"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 56"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 57"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 58"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 59"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 60"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 61"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 62"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 63"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:stone_coin_lottery -1 1",
+                    "give @p sc:stone_coin 64"
+                  ],
+                  "target": "holder"
+                }
+              }
+            ]
+          }
         }
     }
 }

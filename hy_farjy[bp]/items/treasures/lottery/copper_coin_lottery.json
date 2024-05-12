@@ -14,7 +14,128 @@
             },
             "minecraft:creative_category": { 
               "parent": "itemGroup.name.items" 
+            },
+            "minecraft:on_use":{
+              "on_use": {
+                "event": "hy_farjy.lottery_use"
+              }
             }
+        },
+        "events": {
+          "hy_farjy.lottery_use":{
+            "randomize":[
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 15"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 16"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 17"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 18"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 19"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 20"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 21"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 22"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 23"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 24"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "weight": 1 ,
+                "run_command": {
+                  "command": [ 
+                    "clear @s hy_farjy:copper_coin_lottery -1 1",
+                    "give @p hy:copper_coin 25"
+                  ],
+                  "target": "holder"
+                }
+              }
+            ]
+          }
         }
     }
 }
