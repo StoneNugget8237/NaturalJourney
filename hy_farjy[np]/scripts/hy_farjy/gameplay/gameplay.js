@@ -15,29 +15,26 @@ function imatationtoolusing(player,itemStack,itemName){
 }
 
 function giveAward(player, itemStack, itemName, itemId, min, max) {
-  const equipmentComponent = player.getComponent("minecraft:equippable");
-  const inventoryContainer = player.getComponent("minecraft:inventory");
   const awardAmount = randomInteger(min, max);
-  let newItemStack;
   if (itemStack.amount - 1 <= 0) {
-    newItemStack = undefined;
+    var newItemStack = undefined;
   } else {
     itemStack.amount -= 1;
-    newItemStack = itemStack;
+    var newItemStack = itemStack;
   }
-  equipmentComponent?.setEquipment(EquipmentSlot.Mainhand, newItemStack);
-  inventoryContainer?.addItem(new ItemStack(itemId, awardAmount));
+  player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,newItemStack)
+  var prize=new ItemStack(itemId, awardAmount)
   player.sendMessage({
-    text: `恭喜您，获得了奖品§c『${itemName}』§r%%1`,
+    text: `恭喜您，获得了奖品§c『${itemName}』§r*${awardAmount}`,
     with: [awardAmount.toString()],
   });
+  player.runCommand(`give @s ${itemId} ${awardAmount}`);
 }
 
 world.afterEvents.itemUse.subscribe((event) => {
   const player = event.source;
   const itemStack = event.itemStack;
   const itemId = itemStack.typeId;
-  system.run(()=>{
   switch (itemId) {
     case "hy_farjy:copper_coin_lottery":
       giveAward(player, itemStack, "铜币", "hy:copper_coin", 15, 25);
@@ -69,7 +66,6 @@ world.afterEvents.itemUse.subscribe((event) => {
       giveAward(player, itemStack, "绿宝石", "minecraft:emerald", 17, 23);
       break;
   }    
-})
 });
 
 world.afterEvents.entityHitEntity.subscribe((event)=>{

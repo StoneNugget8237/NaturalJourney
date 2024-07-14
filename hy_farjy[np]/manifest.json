@@ -12,7 +12,7 @@
 			"description": "test",
 			"type": "data",
 			"uuid":"a7eccd27-57b3-4cfe-a14c-ec95bc0aad51",
-			"version": "0.1.1-build.4"
+			"version": "0.1.1-build.5"
 		},
 		{
             "type": "script",
@@ -20,14 +20,10 @@
 			"language": "javascript",
             "entry": "scripts/main.js",
             "uuid": "aa6ca62d-a89a-4c20-83f4-77ef7d1e9da2",
-            "version": "0.1.1-build.4"
+            "version": "0.1.1-build.5"
         }
 	],
     "dependencies": [
-		{
-			"uuid": "00996a59-b5b8-4b3f-ae45-0d6e3afad483",
-			"version": "0.1.1-build.4"
-		},
 		{
 			"module_name": "@minecraft/server-ui",
 			"version": "1.2.0-beta"
