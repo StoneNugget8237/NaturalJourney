@@ -1,0 +1,23 @@
+//core
+pack.name=Natural Journey·Extend Pack·Resource Pack
+pack.description=The farther journey, the greater advanture! 丨 Preview 0.1.1-build.6
+nj_ext.version=§bSuccessfully loaded Natural Journey·Extend Pack v0.1.1-build.6
+nj_ext.update=§6Changes in this version:Technical Update
+nj_ext.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
+
+//gameplay
+entity.nj_ext:banker.name=Lottery Trader
+item.spawn_egg.entity.nj_ext:banker.name=Spawn Lottery Trader
+entity.banker=Lottery Trader
+nj_ext.item_name_display.stone_coin_lottery.name=Stone Coin Lottery
+nj_ext.item_name_display.lottery.instruction=§o§7A mysterious lottery, will I get something valuable this time?
+nj_ext.item_name_display.stone_coin_lottery.warning=§r§cIf you want to use this item, please make sure that you have Stone Craft Addon!
+nj_ext.item_name_display.stone_coin_lottery.earn=§r§bPrize: 50~64 Stone Coins
+nj_ext.item_name_display.copper_coin_lottery.name=Copper Coin Lottery
+nj_ext.item_name_display.copper_coin_lottery.earn=§r§bPrize: 15~25 Copper Coins
+nj_ext.item_name_display.emerald_lottery.name=Emerald Lottery
+nj_ext.item_name_display.emerald_lottery.earn=§r§bPrize: 17~23 Emeralds
+nj_ext.item_name_display.diamond_coin_lottery.name=Diamond Lottery
+nj_ext.item_name_display.diamond_coin_lottery.earn=§r§bPrize: 2~4 Diamond Coins
+nj_ext.item_name_display.gold_coin_lottery.name=Gold Coin Lottery
+nj_ext.item_name_display.gold_coin_lottery.earn=§r§bPrize: 17~24 Gold Coins

@@ -1,0 +1,11 @@
+{
+  "format_version": [1, 1, 0],
+  "nj:enhance_table": {
+    "textures": {
+      "down": "nj.dark_oak_log_side",
+      "up":  "nj.enhance_table_up",
+      "side":  "nj.enhance_table_side"
+    },
+    "sound": "stone"
+  }
+}

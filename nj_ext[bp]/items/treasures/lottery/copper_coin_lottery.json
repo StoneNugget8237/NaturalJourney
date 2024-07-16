@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "nj_ext:copper_coin_lottery",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+              "texture": "nj_ext.copper_coin_lottery"
+            },
+            "minecraft:display_name":{
+              "value": "%nj_ext.item_name_display.copper_coin_lottery.name\n%nj_ext.item_name_display.lottery.instruction\n%nj_ext.item_name_display.copper_coin_lottery.earn"
+            },
+            "minecraft:creative_category": { 
+              "parent": "itemGroup.name.items" 
+            }
+        }
+    }
+}

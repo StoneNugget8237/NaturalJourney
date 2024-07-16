@@ -1,0 +1,18 @@
+{
+    "resource_pack_name": "nj",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "nj.iron_enhance_dust": {
+            "textures": "textures/items/iron_enhance_dust"
+        },
+        "nj.gold_enhance_dust": {
+            "textures": "textures/items/gold_enhance_dust"
+        },
+        "nj.amethyst_enhance_dust": {
+            "textures": "textures/items/amethyst_enhance_dust"
+        },
+        "nj.diamond_enhance_dust": {
+            "textures": "textures/items/diamond_enhance_dust"
+        }
+    }
+}

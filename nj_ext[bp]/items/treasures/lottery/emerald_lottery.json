@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "nj_ext:emerald_lottery",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+              "texture": "nj_ext.emerald_lottery"
+            },
+            "minecraft:display_name":{
+              "value": "%nj_ext.item_name_display.emerald_lottery.name\n%nj_ext.item_name_display.lottery.instruction\n%nj_ext.item_name_display.emerald_lottery.earn"
+            },
+            "minecraft:creative_category": { 
+              "parent": "itemGroup.name.items" 
+            }
+        }
+    }
+}

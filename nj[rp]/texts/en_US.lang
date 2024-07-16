@@ -1,0 +1,21 @@
+//core
+pack.name=Natural Journey·Resource Pack
+pack.description=The farther journey, the greater advanture! 丨 Preview 0.1.1-build.6
+nj.version=§bSuccessfully loaded Natural Journey v0.1.1-build.6
+nj.update=§6Changes in this version:Technical Update
+nj.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
+
+//gameplay
+item.nj:iron_enhance_dust=Iron Enhance Dust
+item.nj:gold_enhance_dust=Gold Enhance Dust
+item.nj:unstable_diamond_sword=Unstable Diamond Sword
+item.nj:unstable_gold_sword=Unstable Gold Sword
+item.nj:unstable_iron_sword=Unstable Iron Sword
+item.nj:unstable_diamond_axe=Unstable Diamond Axe
+item.nj:unstable_gold_axe=Unstable Gold Axe
+item.nj:unstable_iron_axe=Unstable Iron Axe
+tile.nj:enhance_table.name=Enhance Table
+tile.nj:enhance_table=Enhancing
+nj:enhance_table.name=Enhancing
+item.nj:amethyst_enhance_dust=Amethyst Enhance Dust
+item.nj:diamond_enhance_dust=Diamond Enhance Dust

@@ -1,0 +1,21 @@
+//core
+pack.name=自然行记·资源包
+pack.description=更远的旅程，更大的冒险！ 丨 测试版0.1.1-build.6
+nj.version=§b已成功加载自然行记版本0.1.1-build.6
+nj.update=§6当前版本更新内容：技术性调整
+nj.copyright=§r本Addon由@StoneNugget主要制作，版权归属星屹工作室所有，同时感谢@RawDiamondMC对本Addon的贡献。您可在可信的发布渠道（如苦力怕论坛）向我们提出反馈！
+
+//gameplay
+item.nj:iron_enhance_dust=铁稳固粉
+item.nj:gold_enhance_dust=金稳固粉
+item.nj:unstable_diamond_sword=不稳定的钻石剑
+item.nj:unstable_gold_sword=不稳定的金剑
+item.nj:unstable_iron_sword=不稳定的铁剑
+item.nj:unstable_diamond_axe=不稳定的钻石斧
+item.nj:unstable_gold_axe=不稳定的金斧
+item.nj:unstable_iron_axe=不稳定的铁斧
+tile.nj:enhance_table.name=强化台
+tile.nj:enhance_table=强化装备
+nj:enhance_table.name=强化装备
+item.nj:amethyst_enhance_dust=紫水晶稳固粉
+item.nj:diamond_enhance_dust=钻石稳固粉

@@ -1,0 +1,17 @@
+{
+  "texture_name": "atlas.terrain",
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "nj",
+  "texture_data": {
+    "nj.enhance_table_up": {
+      "textures": "textures/blocks/enhance_table_up" 
+    },
+    "nj.enhance_table_side": {
+      "textures": "textures/blocks/enhance_table_side" 
+    },
+    "nj.dark_oak_log_side": {
+      "textures": "textures/blocks/log_oak" 
+    }
+  }
+}

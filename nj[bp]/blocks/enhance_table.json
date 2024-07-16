@@ -1,0 +1,29 @@
+{
+  "format_version": "1.19.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nj:enhance_table",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.items"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": { 
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": { 
+      "explosion_resistance": 2.5
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:map_color": "#F4D631",
+      "minecraft:flammable": false ,
+      "minecraft:crafting_table": {
+        "crafting_tags": [ 
+          "enhance_table" 
+        ],
+        "table_name": "nj:enhance_table.name" 
+      }
+    }
+  }
+}
