@@ -1,9 +1,9 @@
 {
-  "format_version": "1.20.0",
+  "format_version": "1.20.80",
   "minecraft:item": {
     "description": {
       "identifier": "nj:unstable_iron_axe",
-      "category": "equipment"
+      "menu_category": {"category": "equipment","group": "itemGroup.name.axe"}
     },
     "components": {
       "minecraft:max_stack_size": 1,
@@ -106,15 +106,18 @@
           }
         ]
       },
-      "minecraft:creative_category": {
-        "parent": "itemGroup.name.axe"
+      "minecraft:icon":{
+        "textures": {
+          "default": "mc.iron_axe"
+        }
       },
-      "minecraft:icon": {
-        "texture": "mc.iron_axe"
+      "minecraft:display_name":{
+        "value": ""
       },
-      "minecraft:display_name": {},
-      "minecraft:damage": 6,
-      "tag:minecraft:is_axe": {}
+      "minecraft:damage":{
+        "value": 5
+      },
+      "minecraft:tags": {"tags": ["minecraft:is_axe","nj:unstable_tool","nj:made_of_iron"]}
     }
     }
   }

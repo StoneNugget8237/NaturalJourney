@@ -4,15 +4,15 @@
 		"name": "pack.name",
 		"description": "pack.description",
 		"uuid": "00996a59-b5b8-4b3f-ae45-0d6e3afad483",
-		"version": "0.1.1-build.6",
-		"min_engine_version": [1, 20, 70]
+		"version": "0.1.4",
+		"min_engine_version": [1, 21, 90]
 	},
 	"modules": [
 		{
 			"description": "test",
 			"type": "data",
 			"uuid":"fd14cc06-9547-4175-9316-ec11b1742aea",
-			"version": "0.1.1-build.6"
+			"version": "0.1.4"
 		},
 		{
             "type": "script",
@@ -20,22 +20,65 @@
 			"language": "javascript",
             "entry": "scripts/main.js",
             "uuid": "bc817dc1-f5f5-4247-878a-2b05a38eb66d",
-            "version": "0.1.1-build.6"
+            "version": "0.1.4"
         }
 	],
     "dependencies": [
 		{
 			"uuid": "53fbfb5e-103a-478e-89ab-3f1705e96a6a",
-			"version": "0.1.1-build.6"
+			"version": "0.1.4"
 		},
 		{
 			"module_name": "@minecraft/server-ui",
-			"version": "1.2.0-beta"
+			"version": "1.3.0"
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.12.0-beta"
+			"version": "1.19.0"
 		}
 	],
-	"capabilities": ["script_eval"]
+	"capabilities": ["script_eval"],
+	"metadata": {
+		"authors": ["CTN Studio","StoneNugget"],
+		"license": "BSD-3",
+		"url": "https://klpbbs.com/forum.php?mod=viewthread&tid=152276&fromuid=204673"
+	},
+	"settings":[
+		{
+			"type": "label",
+			"text": "作者：StoneNugget，作品版权归属星屹工作室所有"
+		},
+		{
+			"type": "label",
+			"text": "本作品使用了其他开源项目的部分或全部源码，详情请参阅：https://naturaljourney.fandom.com/zh/wiki/版权"
+		},
+		{
+			"type": "label",
+			"text": "本作品按照BSD-3 Clause协议开源，这赋予了您对本Addon进行修改、使用、二次创作或分发的权利，但并不意味着我们放弃本作品的著作权。请勿以原开发组名义进行商业宣传，当您在其他项目中使用本作品的内容时，请附上版权信息和下列许可证："
+		},
+		{
+			"type": "label",
+			"text": "Copyright 2024 CTN Studio,StoneNugget\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+		},
+		{
+			"type": "label",
+			"text": "版本发行说明：§l0.1 工具与盔甲§r"
+		},
+		{
+			"type": "label",
+			"text": "注：§o§l斜体加粗内容为未实现部分§r"
+		},
+		{
+			"type": "label",
+			"text": "欢迎来到自然行记0.1版本！在这个版本中，我们为工具和§o§l盔甲§r带来了一些全新的调整。现在，他们的取得将变得循序渐进，更高等级的装备须通过低等级装备升级而成，而不再依靠高等级材料直接合成。同时，工具和§o§l盔甲§r也被拆分为稳定版本和不稳定版本，选择廉价产品还是精工细作将由您抉择！与此同时，我们还带来了一些新的合成配方、§o§l探索的新战利品§r和装备使用时效果，尽情探索吧！"
+		},
+		{
+			"type": "label",
+			"text": "更新说明：§l0.1.4§r"
+		},
+		{
+			"type": "label",
+			"text": "·加入了装备使用时效果"
+		}
+	]
 }

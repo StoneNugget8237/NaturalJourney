@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:gold_pickaxe_upgrade"
+    },
+    "tags": [ "enhance_table" ],
+    "pattern": [
+      "XYX"
+    ],
+    "key": {
+      "X": {
+        "item": "nj:gold_enhance_dust"
+      },
+      "Y": {
+        "item": "nj:unstable_gold_pickaxe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "nj:unstable_gold_pickaxe"
+      }
+    ],
+    "result": {
+      "item": "minecraft:golden_pickaxe"
+    }
+  }
+}

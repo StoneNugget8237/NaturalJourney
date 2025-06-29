@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:iron_shovel_upgrade"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XYX"
+    ],
+    "key": {
+      "X": {
+        "item": "nj:iron_enhance_dust"
+      },
+      "Y": {
+        "item": "nj:unstable_iron_shovel"
+      }
+    },
+	"unlock": [
+      {
+        "item": "nj:unstable_iron_shovel"
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_shovel"
+    }
+  }
+}

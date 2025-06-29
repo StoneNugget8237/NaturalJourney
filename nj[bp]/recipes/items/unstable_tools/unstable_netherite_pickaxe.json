@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "nj:unstable_netherite_pickaxe"
+    },
+    "tags": [ "smithing_table" ],
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "nj:unstable_diamond_pickaxe",
+    "addition": "minecraft:netherite_ingot",
+    "result": "nj:unstable_netherite_pickaxe"
+  }
+}

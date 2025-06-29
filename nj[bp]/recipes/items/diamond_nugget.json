@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "nj:diamond_nugget"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            {
+                "item": "minecraft:diamond"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:diamond"
+            }
+        ],
+        "result": {
+            "item": "nj:diamond_nugget",
+            "count": 9
+        }
+    }
+}

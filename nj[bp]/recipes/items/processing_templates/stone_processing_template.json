@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:stone_processing_template"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " X ",
+      "XYX",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:cobblestone"
+      },
+      "Y": {
+        "item": "minecraft:glass"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "result": {
+      "item": "nj:stone_processing_template"
+    }
+  }
+}

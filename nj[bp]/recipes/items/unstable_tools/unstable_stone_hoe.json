@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:unstable_stone_hoe"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XX",
+      " Y",
+      " Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:cobblestone"
+      },
+      "Y": {
+        "item": "nj:stone_processing_template"
+      },
+      "Z": {
+        "item": "nj:unstable_wooden_hoe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "result": {
+      "item": "nj:unstable_stone_hoe"
+    }
+  }
+}

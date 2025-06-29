@@ -22,19 +22,17 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   var needsendupdatemessage=compare(latestLoadednjextVersion, version)
   if (needsendupdatemessage==-1) {
     world.setDynamicProperty("LatestLoadednjextAddonVersion", version);
-    world.sendMessage("%nj_ext.version\n%nj_ext.update\n%nj_ext.copyright")
+    world.sendMessage("%nj_ext.message.version\n%nj_ext.message.update\n%nj_ext.message.copyright")
   } 
   if (needsendupdatemessage==1) {
     player.sendMessage(
-      `§c[自然行记·玩法扩展]不支持对Addon降级！世界中有Addon版本${latestLoadednjextVersion}的加载记录,但当前使用的版本为${version}`,
+      player.sendMessage({translate:"nj_ext.message.lowversion",with:[latestLoadednjextVersion,version]})
     );
   }
   try {
     new ItemStack("nj:iron_enhance_dust");
   } catch (ignored) {
-    player.sendMessage(
-      "§c[自然行记·玩法扩展]自然行记本体未安装或版本有误，请安装或更新自然行记本体"
-    )
+    player.sendMessage("%nj_ext.message.nonj")
   }
   warned = true;
 

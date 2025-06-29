@@ -55,7 +55,7 @@
                 ],
                 "gives": [
                   {
-                    "item": "sc:stone_coin",
+                    "item": "stonecraft:stone_coin",
                     "quantity": {
                       "min": 58,
                       "max": 64
@@ -109,7 +109,7 @@
               {
                 "wants": [
                   {
-                    "item": "sc:stone_coin",
+                    "item": "stonecraft:stone_coin",
                     "quantity": {
                       "min": 54,
                       "max": 60
@@ -158,7 +158,7 @@
                 ],
                 "gives": [
                   {
-                    "item": "sc:stone_coin",
+                    "item": "stonecraft:stone_coin",
                     "quantity": {
                       "min": 57,
                       "max": 61
@@ -172,7 +172,7 @@
               {
                 "wants": [
                   {
-                    "item": "sc:stone_coin",
+                    "item": "stonecraft:stone_coin",
                     "quantity": {
                       "min": 55,
                       "max": 61
@@ -195,7 +195,7 @@
             ]
           },
           {
-            "num_to_select": 2,
+            "num_to_select": 1,
             "trades": [
               {
                 "wants": [
@@ -279,7 +279,7 @@
               {
                 "wants": [
                   {
-                    "item": "sc:stone_coin",
+                    "item": "stonecraft:stone_coin",
                     "quantity":{
                       "min": 54,
                       "max": 62
@@ -351,6 +351,68 @@
                   {
                     "item": "nj_ext:emerald_lottery",
                     "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              }
+            ]
+          },
+          {
+            "num_to_select": 1,
+            "trades": [
+              {
+                "wants": [
+                  {
+                    "item": "hy:stack_of_copper_coin",
+                    "quantity":{
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "nj_ext:emerald_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "hy:stack_of_gold_coin",
+                    "quantity":{
+                      "min": 2,
+                      "max": 3
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "nj_ext:emerald_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "hy:stack_of_diamond_coin",
+                    "quantity":1
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "nj_ext:emerald_lottery",
+                    "quantity":4
                   }
                 ],
                 "trader_exp": 2,

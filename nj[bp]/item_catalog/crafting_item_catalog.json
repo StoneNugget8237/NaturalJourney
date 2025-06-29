@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "nj:diamond_enhance_dust",
+              "name": "nj:itemGroup.name.enhance_dusts"
+            },
+            "items": [
+              "nj:diamond_enhance_dust",
+              "nj:iron_enhance_dust",
+              "nj:gold_enhance_dust",
+              "nj:stone_enhance_dust",
+              "nj:wooden_enhance_dust",
+              "nj:netherite_enhance_dust"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

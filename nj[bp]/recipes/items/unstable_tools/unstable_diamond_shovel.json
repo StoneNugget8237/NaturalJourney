@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:unstable_diamond_shovel"
+    },
+    "tags": [ "enhance_table" ],
+    "pattern": [
+      "X",
+      "Y",
+      "Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:diamond"
+      },
+      "Y": {
+        "item": "nj:diamond_processing_template"
+      },
+      "Z": {
+        "item": "nj:unstable_iron_shovel"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "result": {
+      "item": "nj:unstable_diamond_shovel"
+    }
+  }
+}

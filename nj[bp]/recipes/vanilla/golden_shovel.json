@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:golden_shovel"
+    },
+    "tags": [ "enhance_table" ],
+    "pattern": [
+      "X",
+      "Y",
+      "Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:gold_ingot"
+      },
+      "Y": {
+        "item": "nj:gold_processing_template"
+      },
+      "Z": {
+        "item": "minecraft:iron_shovel"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:golden_shovel"
+    }
+  }
+}

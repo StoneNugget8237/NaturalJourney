@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:iron_pickaxe"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      " Y",
+      " Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Y": {
+        "item": "nj:iron_processing_template"
+      },
+      "Z": {
+        "item": "minecraft:stone_pickaxe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  }
+}

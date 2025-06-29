@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:unstable_iron_axe"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XX",
+      "XY",
+      " Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Y": {
+        "item": "nj:iron_processing_template"
+      },
+      "Z": {
+        "item": "nj:unstable_stone_axe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "nj:unstable_iron_axe"
+    }
+  }
+}

@@ -4,47 +4,128 @@ function randomInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function imatationtoolusing(player,itemStack,itemName){
-  const tooldamageamount=randomInteger(1, 10);
-  if (tooldamageamount>=5){
-    player.sendMessage(`这把${itemName}§r还是无法与真品媲美...`)
+function getDisplayColor(itemStack){
+  if(itemStack.hasTag("nj:made_of_diamond")==true){
+    return "§b"
   }
-  const durability=itemStack.getComponent("minecraft:durability");
-  durability.damage += tooldamageamount;
-  return itemStack;
+  if(itemStack.hasTag("nj:made_of_gold")==true){
+    return "§e"
+  }
+  if(itemStack.hasTag("nj:made_of_iron")==true){
+    return "§7"
+  }
+  if(itemStack.hasTag("nj:made_of_stone")==true){
+    return "§7"
+  }
+  if(itemStack.hasTag("nj:made_of_wood")==true){
+    return "§6"
+  }
+  if(itemStack.hasTag("nj:made_of_netherite")==true){
+    return "§8"
+  }
 }
+
+function toolusing(player,itemStack,isHittingEntities,target,i){
+  var weight=randomInteger(1, 100)
+  if(weight>=1&&weight<=3-i){
+    player.addEffect("haste",60,{amplifier:0,showParticles:false})
+    player.sendMessage(`%nj.message.haste`)
+  }
+  if(weight>=4-i&&weight<=7-2*i){
+    const durability=itemStack.getComponent("minecraft:durability");
+    durability.damage -= 1;
+    player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,itemStack)
+    player.sendMessage(`%nj.message.add_durability`)
+  }
+  if(weight>=8-2*i&&weight<=12-i){
+    var damageamount=randomInteger(3, 5);
+    const durability=itemStack.getComponent("minecraft:durability");
+    durability.damage += damageamount;
+    player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,itemStack)
+    player.sendMessage(`%nj.message.reduce_durability_lv1`)
+  }
+  if(weight>=13-i&&weight<=14){
+    var damageamount=randomInteger(6, 10);
+    const durability=itemStack.getComponent("minecraft:durability");
+    durability.damage += damageamount;
+    player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,itemStack)
+    player.sendMessage(`%nj.message.reduce_durability_lv2`)
+  }
+  if(weight>=15&&weight<=17+i){
+    player.applyDamage(4)
+    player.sendMessage(`%nj.message.damage`)
+  }
+  if(weight>=18+i&&weight<=19+2*i){
+    var dimension=player.dimension
+    var location=player.location
+    var itemSummonx=location.x+randomInteger(-3, 3)
+    var itemSummony=location.y+1
+    var itemSummonz=location.z+randomInteger(-3, 3)
+    var itemSummonLocation={x:itemSummonx,y:itemSummony,z:itemSummonz}
+    player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand)
+    dimension.setBlockType(itemSummonLocation,"minecraft:air")
+    dimension.spawnItem(itemStack,itemSummonLocation)
+    player.sendMessage(`%nj.message.drop`)
+  }
+  if(isHittingEntities==true){
+    if(weight>=20+2*i&&weight<=21+2*i){
+      target.applyDamage(4)
+      player.sendMessage(`%nj.message.damage_enemy`)
+    }
+    if(weight===22+2*i){
+      var health=player.getComponent("minecraft:health")
+      var currentValue=health.currentValue
+      health.setCurrentValue(currentValue+2)
+      player.sendMessage(`%nj.message.add_health`)
+    }
+    if(weight>=23+2*i&&weight<=27+i){
+      var facingEntities=player.getEntitiesFromViewDirection({maxDistance:2})
+      facingEntities.forEach((hit) => {
+        hit.entity.applyDamage(2)
+      })
+      player.sendMessage(`%nj.message.group_damage`)
+    }
+    if(weight>=28+i&&weight<=30+2*i){
+      var health=target.getComponent("minecraft:health")
+      var currentValue=health.currentValue
+      health.setCurrentValue(currentValue+3)
+      player.sendMessage(`%nj.message.low_attack`)
+    }
+  }
+}
+
+world.afterEvents.playerBreakBlock.subscribe((event)=>{
+  const player=event.player
+  const target=event.block
+  const item=event.itemStackAfterBreak
+  var gamemode=player.getGameMode()
+  if(gamemode=="survival"||gamemode=="adventure"){
+    system.run(()=>{
+      if(item.hasTag("nj:unstable_tool")==true){
+        toolusing(player, item, false, target, 1)
+      }
+      else{
+        toolusing(player, item, false, target, 0)
+      }
+    })
+  }
+})
 
 world.afterEvents.entityHitEntity.subscribe((event)=>{
   const player=event.damagingEntity
+  const target=event.hitEntity
   const item=player.getComponent("minecraft:equippable").getEquipment(EquipmentSlot.Mainhand)
-  system.run(()=>{
-    switch(item.typeId){
-      case "nj:unstable_diamond_sword":
-        var result=imatationtoolusing(player, item, "§b『不稳定的钻石剑』" )
-        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
-        break;
-      case "nj:unstable_gold_sword":
-        var result=imatationtoolusing(player, item, "§e『不稳定的金剑』" )
-        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
-        break;
-      case "nj:unstable_iron_sword":
-        var result=imatationtoolusing(player, item, "§7『不稳定的铁剑』" )
-        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
-        break;
-      case "nj:unstable_diamond_axe":
-        var result=imatationtoolusing(player, item, "§b『不稳定的钻石斧』" )
-        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
-        break;
-      case "nj:unstable_gold_axe":
-        var result=imatationtoolusing(player, item, "§e『不稳定的金斧』" )
-        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
-        break;
-      case "nj:unstable_iron_axe":
-        var result=imatationtoolusing(player, item, "§7『不稳定的铁斧』" )
-        player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,result)
-        break;
-    }
-  })
+  var gamemode=player.getGameMode()
+  if(gamemode=="survival"||gamemode=="adventure"){
+    system.run(()=>{
+      if(item.hasTag("nj:unstable_tool")==true){
+        toolusing(player, item, true, target, 1)
+      }
+      else{
+        toolusing(player, item, true, target, 0)
+      }
+    })
+  }
 })
 
 

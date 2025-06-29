@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:stone_sword"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X",
+      "X",
+      "ZY"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:cobblestone"
+      },
+      "Y": {
+        "item": "nj:stone_processing_template"
+      },
+      "Z": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stone_sword"
+    }
+  }
+}

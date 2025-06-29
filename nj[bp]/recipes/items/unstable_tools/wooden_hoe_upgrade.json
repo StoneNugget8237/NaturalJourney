@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:wooden_hoe_upgrade"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XYX"
+    ],
+    "key": {
+      "X": {
+        "item": "nj:wooden_enhance_dust"
+      },
+      "Y": {
+        "item": "nj:unstable_wooden_hoe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "nj:unstable_wooden_hoe"
+      }
+    ],
+    "result": {
+      "item": "minecraft:wooden_hoe"
+    }
+  }
+}

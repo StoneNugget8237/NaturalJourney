@@ -1,17 +1,16 @@
 {
-  "format_version": "1.20.0",
+  "format_version": "1.20.80",
   "minecraft:item": {
     "description": {
       "identifier": "nj:unstable_diamond_sword",
-      "category": "equipment"
+      "menu_category": {"category": "equipment","group": "itemGroup.name.sword"}
     },
     "components": {
-      "minecraft:display_name": {},
-      "minecraft:creative_category": {
-        "parent": "itemGroup.name.sword"
-      },
-      "minecraft:icon": {
-        "texture":"mc.diamond_sword"
+      "minecraft:tags": {"tags": ["minecraft:is_sword","nj:unstable_tool","nj:made_of_diamond"]},
+      "minecraft:icon":{
+        "textures": {
+          "default": "mc.diamond_sword"
+        }
       },
       "minecraft:enchantable": {
         "slot": "sword",
@@ -27,7 +26,9 @@
           "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
         }]
       },
-      "minecraft:damage": 8,
+      "minecraft:damage":{
+        "value": 7
+      },
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
         "max_durability": 1561

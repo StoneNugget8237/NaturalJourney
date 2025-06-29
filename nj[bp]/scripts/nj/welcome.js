@@ -22,12 +22,10 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   var needsendupdatemessage=compare(latestLoadedNjVersion, version)
   if (needsendupdatemessage==-1) {
     world.setDynamicProperty("LatestLoadedNjAddonVersion", version);
-    world.sendMessage("%nj.version\n%nj.update\n%nj.copyright")
+    world.sendMessage("%nj.message.version\n%nj.message.update\n%nj.message.copyright")
   } 
   if (needsendupdatemessage==1) {
-    player.sendMessage(
-      `§c[自然行记]不支持对Addon降级！世界中有Addon版本${latestLoadedNjVersion}的加载记录,但当前使用的版本为${version}`,
-    );
+    player.sendMessage({translate:"nj.message.lowversion",with:[latestLoadedNjVersion,version]})
   }
   warned = true;
 });

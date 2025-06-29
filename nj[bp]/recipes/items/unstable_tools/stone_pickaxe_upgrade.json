@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:stone_pickaxe_upgrade"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XYX"
+    ],
+    "key": {
+      "X": {
+        "item": "nj:stone_enhance_dust"
+      },
+      "Y": {
+        "item": "nj:unstable_stone_pickaxe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "nj:unstable_stone_pickaxe"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stone_pickaxe"
+    }
+  }
+}

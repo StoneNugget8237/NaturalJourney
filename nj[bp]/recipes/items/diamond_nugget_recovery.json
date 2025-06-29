@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nj:diamond_nugget_recovery"
+        },
+        "tags": ["crafting_table"],
+        "pattern": ["XXX","XXX","XXX"],
+        "key": {
+            "X":{
+                "item": "nj:diamond_nugget"
+            }
+        },
+        "unlock": [
+            {
+                "item": "nj:diamond_nugget"
+            }
+        ],
+        "result": {
+            "item": "minecraft:diamond"
+        }
+    }
+}

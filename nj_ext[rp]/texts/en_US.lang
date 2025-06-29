@@ -1,9 +1,14 @@
 //core
 pack.name=Natural Journey·Extend Pack·Resource Pack
-pack.description=The farther journey, the greater advanture! 丨 Preview 0.1.1-build.6
-nj_ext.version=§bSuccessfully loaded Natural Journey·Extend Pack v0.1.1-build.6
-nj_ext.update=§6Changes in this version:Technical Update
-nj_ext.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
+pack.description=The farther journey, the greater advanture! | Release 0.1.4
+nj_ext.message.version=§bSuccessfully loaded Natural Journey·Extend Pack v0.1.4
+nj_ext.message.update=§6Changes in this version:Supported Natural Journey 0.1.4
+nj_ext.message.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
+nj_ext.message.nonj=§c[Natural Journey·Extend Pack]Seems you have no or a low verison of Natural Journey, please try to update or enable it.
+nj_ext.message.getaward=Congratulations! You've earned §c『%1』§r*%2
+nj_ext.message.nohy=§c[Natural Journey·Extend Pack]Seems you have no or a low verison of Hidden Years(²), please try to update or enable it.
+nj_ext.message.nosc=§c[Natural Journey·Extend Pack]Seems you have no or a low verison of Stone Craft, please try to update or enable it.
+nj_ext.meaasge.clearversionrecord=§6[Natural Journey·Extend Pack]Successfully cleared addon version loaded record in this world!
 
 //gameplay
 entity.nj_ext:banker.name=Lottery Trader
@@ -21,3 +26,4 @@ nj_ext.item_name_display.diamond_coin_lottery.name=Diamond Lottery
 nj_ext.item_name_display.diamond_coin_lottery.earn=§r§bPrize: 2~4 Diamond Coins
 nj_ext.item_name_display.gold_coin_lottery.name=Gold Coin Lottery
 nj_ext.item_name_display.gold_coin_lottery.earn=§r§bPrize: 17~24 Gold Coins
+nj_ext:itemGroup.name.lotteries=Lotteries

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+      "description": {
+      "identifier": "nj:stone_enhance_dust"
+      },
+      "tags": [ "stonecutter" ],
+      "ingredients": [
+        {
+          "item": "minecraft:stone"
+        }
+      ],
+      "result": {
+        "item": "nj:stone_enhance_dust",
+        "count": 2
+      }
+    }
+  }

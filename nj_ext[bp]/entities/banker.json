@@ -148,7 +148,7 @@
                 "height": 1.9
               },
               "minecraft:movement": {
-                "value": 0.5
+                "value": 0.2
               },
               "minecraft:navigation.walk": {
                 "can_path_over_water": true,

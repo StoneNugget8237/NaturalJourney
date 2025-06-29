@@ -8,11 +8,122 @@
         "nj.gold_enhance_dust": {
             "textures": "textures/items/gold_enhance_dust"
         },
-        "nj.amethyst_enhance_dust": {
-            "textures": "textures/items/amethyst_enhance_dust"
-        },
         "nj.diamond_enhance_dust": {
             "textures": "textures/items/diamond_enhance_dust"
+        },
+        "nj.stone_enhance_dust": {
+            "textures": "textures/items/stone_enhance_dust"
+        },
+        "nj.wooden_enhance_dust": {
+            "textures": "textures/items/wooden_enhance_dust"
+        },
+        "nj.stone_processing_template": {
+            "textures": "textures/items/stone_processing_template"
+        },
+        "nj.iron_processing_template": {
+            "textures": "textures/items/iron_processing_template"
+        },
+        "nj.gold_processing_template": {
+            "textures": "textures/items/gold_processing_template"
+        },
+        "nj.diamond_processing_template": {
+            "textures": "textures/items/diamond_processing_template"
+        },
+        "mc.diamond_sword":{
+            "textures": "textures/items/vanilla/diamond_sword"
+        },
+        "mc.gold_sword":{
+            "textures": "textures/items/vanilla/gold_sword"
+        },
+        "mc.iron_sword":{
+            "textures": "textures/items/vanilla/iron_sword"
+        },
+        "mc.stone_sword":{
+            "textures": "textures/items/vanilla/stone_sword"
+        },
+        "mc.wooden_sword":{
+            "textures": "textures/items/vanilla/wood_sword"
+        },
+        "mc.netherite_sword":{
+            "textures": "textures/items/vanilla/netherite_sword"
+        },
+        "mc.diamond_axe":{
+            "textures": "textures/items/vanilla/diamond_axe"
+        },
+        "mc.gold_axe":{
+            "textures": "textures/items/vanilla/gold_axe"
+        },
+        "mc.iron_axe":{
+            "textures": "textures/items/vanilla/iron_axe"
+        },
+        "mc.stone_axe":{
+            "textures": "textures/items/vanilla/stone_axe"
+        },
+        "mc.wooden_axe":{
+            "textures": "textures/items/vanilla/wood_axe"
+        },
+        "mc.netherite_axe":{
+            "textures": "textures/items/vanilla/netherite_axe"
+        },
+        "mc.gold_pickaxe":{
+            "textures": "textures/items/vanilla/gold_pickaxe"
+        },
+        "mc.iron_pickaxe":{
+            "textures": "textures/items/vanilla/iron_pickaxe"
+        },
+        "mc.stone_pickaxe":{
+            "textures": "textures/items/vanilla/stone_pickaxe"
+        },
+        "mc.wooden_pickaxe":{
+            "textures": "textures/items/vanilla/wood_pickaxe"
+        },
+        "mc.netherite_pickaxe":{
+            "textures": "textures/items/vanilla/netherite_pickaxe"
+        },
+        "mc.diamond_pickaxe":{
+            "textures": "textures/items/vanilla/diamond_pickaxe"
+        },
+        "mc.gold_hoe":{
+            "textures": "textures/items/vanilla/gold_hoe"
+        },
+        "mc.iron_hoe":{
+            "textures": "textures/items/vanilla/iron_hoe"
+        },
+        "mc.stone_hoe":{
+            "textures": "textures/items/vanilla/stone_hoe"
+        },
+        "mc.wooden_hoe":{
+            "textures": "textures/items/vanilla/wood_hoe"
+        },
+        "mc.netherite_hoe":{
+            "textures": "textures/items/vanilla/netherite_hoe"
+        },
+        "mc.diamond_hoe":{
+            "textures": "textures/items/vanilla/diamond_hoe"
+        },
+        "mc.gold_shovel":{
+            "textures": "textures/items/vanilla/gold_shovel"
+        },
+        "mc.iron_shovel":{
+            "textures": "textures/items/vanilla/iron_shovel"
+        },
+        "mc.stone_shovel":{
+            "textures": "textures/items/vanilla/stone_shovel"
+        },
+        "mc.wooden_shovel":{
+            "textures": "textures/items/vanilla/wood_shovel"
+        },
+        "mc.netherite_shovel":{
+            "textures": "textures/items/vanilla/netherite_shovel"
+        },
+        "mc.diamond_shovel":{
+            "textures": "textures/items/vanilla/diamond_shovel"
+        },
+        "nj.netherite_enhance_dust": {
+            "textures": "textures/items/netherite_enhance_dust"
+        },
+        "nj.diamond_nugget": {
+            "textures": "textures/items/diamond_nugget"
         }
     }
 }

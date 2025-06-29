@@ -1,0 +1,67 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nj:unstable_wooden_shovel",
+      "menu_category": {"category": "equipment","group": "itemGroup.name.shovel"}
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 59
+      },
+      "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                  {
+                    "block": {
+                      "tags": "query.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+                    },
+                    "speed": 3
+                  },
+                  {
+                    "block": "soul_soil",
+                    "speed": 3
+                  },
+                  {
+                    "block": "concrete_powder",
+                    "speed": 3
+                  }
+        ]
+      },
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "shovel"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:planks"
+            ],
+            "repair_amount": 5
+          },
+          {
+            "items": [
+              "nj:unstable_wooden_shovel"
+            ],
+            "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:icon":{
+        "textures": {
+          "default": "mc.wooden_shovel"
+        }
+      },
+      "minecraft:display_name":{
+        "value": ""
+      },
+      "minecraft:damage":{
+        "value": 1
+      },
+      "minecraft:tags": {"tags": ["minecraft:is_shovel","nj:unstable_tool","nj:made_of_wood"]}
+    }
+    }
+  }
