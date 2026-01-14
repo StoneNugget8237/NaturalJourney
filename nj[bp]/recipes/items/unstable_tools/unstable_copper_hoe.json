@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:unstable_copper_hoe"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XX",
+      " Y",
+      " Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:copper_ingot"
+      },
+      "Y": {
+        "item": "nj:copper_processing_template"
+      },
+      "Z": {
+        "item": "nj:unstable_stone_hoe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "result": {
+      "item": "nj:unstable_copper_hoe"
+    }
+  }
+}

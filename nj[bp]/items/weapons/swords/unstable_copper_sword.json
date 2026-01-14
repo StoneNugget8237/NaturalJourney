@@ -1,0 +1,108 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nj:unstable_copper_sword",
+      "menu_category": {"category": "equipment","group": "itemGroup.name.sword"}
+    },
+    "components": {
+      "minecraft:tags": {"tags": ["minecraft:is_sword","nj:unstable_tool","nj:made_of_copper"]},
+      "minecraft:icon":{
+        "textures": {
+          "default": "mc.copper_sword"
+        }
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 15
+      },
+      "minecraft:repairable": {
+        "repair_items": [{
+          "items": ["minecraft:copper_ingot"],
+          "repair_amount": 5
+        },
+        {
+          "items": ["nj:unstable_copper_sword"],
+          "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+        }]
+      },
+      "minecraft:damage":{
+        "value": 5
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 190,
+        "damage_chance": {
+          "max": 100,
+          "min": 100
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "tag:minecraft:is_sword": {},
+      "minecraft:digger": {
+      "use_efficiency": true,
+      "destroy_speeds": [
+        {
+          "block": "web",
+          "speed": 15
+        },
+        {
+          "block": "bamboo",
+          "speed": 60
+        },
+        {
+          "block": "cocoa",
+          "speed": 15
+        },
+        {
+          "block": "glow_lichen",
+          "speed": 60
+        },
+        {
+          "block": "azalea_leaves_flowered",
+          "speed": 15
+        },
+        {
+          "block": "azalea_leaves",
+          "speed": 15
+        },
+        {
+          "block": "leaves",
+          "speed": 15
+        },
+        {
+          "block": "leaves2",
+          "speed": 15
+        },
+        {
+          "block": "mangrove_leaves",
+          "speed": 15
+        },
+        {
+          "block": "cherry_leaves",
+          "speed": 15
+        },
+        {
+          "block": "melon_block",
+          "speed": 15
+        },
+        {
+          "block": "vine",
+          "speed": 30
+        },
+        {
+          "block": "pumpkin",
+          "speed": 15
+        },
+        {
+          "block": "lit_pumpkin",
+          "speed": 15
+        },
+        {
+          "block": "moss_carpet",
+          "speed": 15
+        }
+      ]}
+    }
+  }
+}

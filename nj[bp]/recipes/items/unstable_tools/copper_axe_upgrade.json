@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nj:copper_axe_upgrade"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XYX"
+    ],
+    "key": {
+      "X": {
+        "item": "nj:copper_enhance_dust"
+      },
+      "Y": {
+        "item": "nj:unstable_copper_axe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "nj:unstable_copper_axe"
+      }
+    ],
+    "result": {
+      "item": "minecraft:copper_axe"
+    }
+  }
+}

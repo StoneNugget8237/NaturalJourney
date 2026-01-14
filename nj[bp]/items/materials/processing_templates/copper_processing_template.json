@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nj:copper_processing_template",
+      "menu_category": {"category": "items","group": "itemGroup.name.smithing_templates"}
+    },
+    "components": {
+      "minecraft:icon":{
+        "textures": {
+          "default": "nj.copper_processing_template"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "%item.smithing_template.name\n§7%upgrade.copper_upgrade.name\n\n%item.smithing_template.applies_to\n§9 %item.smithing_template.copper_upgrade.applies_to\n§7%item.smithing_template.ingredients\n§9 %item.smithing_template.copper_upgrade.ingredients"
+      }
+    }
+  }
+}

@@ -1,8 +1,9 @@
 //core
 pack.name=自然行记·资源包
-pack.description=更远的旅程，更大的冒险！ | 正式版0.1.4
-nj.message.version=§b已成功加载自然行记版本0.1.4
-nj.message.update=§6当前版本更新内容：装备使用效果
+pack.description=自然行记的配套资源包 | 测试版0.1.5-beta.1
+nj.message.version=§b已成功加载自然行记版本0.1.5-beta.1
+nj.message.trial=§c您正在使用§l测试版本§r§c的自然行记，可能伴随漏洞、不稳定和崩溃！
+nj.message.update=§6当前版本更新内容：漏洞修复
 nj.message.copyright=§r本Addon由@StoneNugget主要制作，版权归属星屹工作室所有，同时感谢@RawDiamondMC对本Addon的贡献。您可在可信的发布渠道（如苦力怕论坛）向我们提出反馈！
 nj.message.unstable_tool_use=这把%1『%2』§r似乎需要更稳定一些...
 nj.message.lowversion=§c[自然行记]不支持对Addon降级！世界中有Addon版本%1的加载记录,但当前使用的版本为%2
@@ -39,7 +40,7 @@ item.smithing_template.diamond_upgrade.ingredients=钻石
 upgrade.diamond_upgrade.name=钻石升级
 item.smithing_template.gold_upgrade.ingredients=金锭
 upgrade.gold_upgrade.name=金升级
-item.smithing_template.iron_upgrade.applies_to=石装备
+item.smithing_template.iron_upgrade.applies_to=铜装备
 item.smithing_template.iron_upgrade.ingredients=铁锭
 upgrade.iron_upgrade.name=铁升级
 item.smithing_template.stone_upgrade.applies_to=木工具及衣物
@@ -71,6 +72,20 @@ item.nj:unstable_wooden_hoe=不稳定的木锄
 item.nj:unstable_netherite_hoe=不稳定的下界合金锄
 item.nj:netherite_enhance_dust=下界合金稳固粉
 item.nj:diamond_nugget=钻石粒
+item.nj:unstable_copper_sword=不稳定的铜剑
+item.nj:unstable_copper_axe=不稳定的铜斧
+item.nj:unstable_copper_pickaxe=不稳定的铜镐
+item.nj:unstable_copper_shovel=不稳定的铜锹
+item.nj:unstable_copper_hoe=不稳定的铜锄
+item.copper_sword.name=稳定的铜剑
+item.copper_axe.name=稳定的铜斧
+item.copper_pickaxe.name=稳定的铜镐
+item.copper_shovel.name=稳定的铜锹
+item.copper_hoe.name=稳定的铜锄
+item.smithing_template.copper_upgrade.applies_to=石装备
+item.smithing_template.copper_upgrade.ingredients=铜锭
+upgrade.copper_upgrade.name=铜升级
+item.nj:copper_enhance_dust=铜稳固粉
 
 //vanilla
 item.diamond_sword.name=稳定的钻石剑

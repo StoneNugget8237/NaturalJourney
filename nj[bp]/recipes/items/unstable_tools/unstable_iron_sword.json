@@ -4,7 +4,7 @@
     "description": {
     "identifier": "nj:unstable_iron_sword"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "cenhance_table" ],
     "pattern": [
       "X",
       "X",
@@ -18,7 +18,7 @@
         "item": "nj:iron_processing_template"
       },
       "Z": {
-        "item": "nj:unstable_stone_sword"
+        "item": "nj:unstable_copper_sword"
       }
     },
 	"unlock": [

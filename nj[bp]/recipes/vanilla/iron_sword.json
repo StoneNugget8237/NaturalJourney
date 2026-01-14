@@ -4,7 +4,7 @@
     "description": {
     "identifier": "minecraft:iron_sword"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "enhance_table" ],
     "pattern": [
       "X",
       "X",
@@ -18,7 +18,7 @@
         "item": "nj:iron_processing_template"
       },
       "Z": {
-        "item": "minecraft:stone_sword"
+        "item": "minecraft:copper_sword"
       }
     },
 	"unlock": [

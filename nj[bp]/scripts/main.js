@@ -1,4 +1,4 @@
 import "nj/welcome.js";
 import "nj/gameplay.js";
 
-export const version = "0.1.4";
+export const version = "0.1.5-beta.1";

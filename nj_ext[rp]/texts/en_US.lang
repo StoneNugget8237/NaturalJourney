@@ -1,8 +1,9 @@
 //core
 pack.name=Natural Journey·Extend Pack·Resource Pack
-pack.description=The farther journey, the greater advanture! | Release 0.1.4
-nj_ext.message.version=§bSuccessfully loaded Natural Journey·Extend Pack v0.1.4
-nj_ext.message.update=§6Changes in this version:Supported Natural Journey 0.1.4
+pack.description=Resource pack of Natural Journey·Extend Pack | Trial 0.1.5-beta.1
+nj_ext.message.version=§bSuccessfully loaded Natural Journey·Extend Pack v0.1.5-beta.1
+nj_ext.message.trial=§cPlease note that this is a TRIAL VERSION of Natural Journey·Extend Pack, with bugs and crashes!
+nj_ext.message.update=§6Changes in this version:Supported Natural Journey 0.1.5-beta.1
 nj_ext.message.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
 nj_ext.message.nonj=§c[Natural Journey·Extend Pack]Seems you have no or a low verison of Natural Journey, please try to update or enable it.
 nj_ext.message.getaward=Congratulations! You've earned §c『%1』§r*%2

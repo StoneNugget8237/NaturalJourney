@@ -98,14 +98,16 @@ world.afterEvents.playerBreakBlock.subscribe((event)=>{
   const player=event.player
   const target=event.block
   const item=event.itemStackAfterBreak
-  var gamemode=player.getGameMode()
-  if(gamemode=="survival"||gamemode=="adventure"){
+  const gamemode=player.getGameMode()
+  if(gamemode=="Survival"||gamemode=="Adventure"){
     system.run(()=>{
-      if(item.hasTag("nj:unstable_tool")==true){
-        toolusing(player, item, false, target, 1)
-      }
-      else{
-        toolusing(player, item, false, target, 0)
+      if(item.hasTag("minecraft:is_tool")==true){
+        if(item.hasTag("nj:unstable_tool")==true){
+          toolusing(player, item, false, target, 1)
+        }
+        else{
+          toolusing(player, item, false, target, 0)
+        }
       }
     })
   }
@@ -115,14 +117,16 @@ world.afterEvents.entityHitEntity.subscribe((event)=>{
   const player=event.damagingEntity
   const target=event.hitEntity
   const item=player.getComponent("minecraft:equippable").getEquipment(EquipmentSlot.Mainhand)
-  var gamemode=player.getGameMode()
-  if(gamemode=="survival"||gamemode=="adventure"){
+  const gamemode=player.getGameMode();
+  if(gamemode=="Survival"||gamemode=="Adventure"){
     system.run(()=>{
-      if(item.hasTag("nj:unstable_tool")==true){
-        toolusing(player, item, true, target, 1)
-      }
-      else{
-        toolusing(player, item, true, target, 0)
+      if(item.hasTag("minecraft:is_tool")==true){
+        if(item.hasTag("nj:unstable_tool")==true){
+          toolusing(player, item, false, target, 1)
+        }
+        else{
+          toolusing(player, item, false, target, 0)
+        }
       }
     })
   }

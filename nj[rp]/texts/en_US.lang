@@ -1,8 +1,9 @@
 //core
 pack.name=Natural Journey·Resource Pack
-pack.description=The farther journey, the greater advanture! | Release 0.1.4
-nj.message.version=§bSuccessfully loaded Natural Journey v0.1.4
-nj.message.update=§6Changes in this version:Equipments using effects
+pack.description=Resource pack of Natural Journey | Trial 0.1.5-beta.1
+nj.message.version=§bSuccessfully loaded Natural Journey v0.1.5-beta.1
+nj.message.trial=§cPlease note that this is a TRIAL VERSION of Natural Journey, with bugs and crashes!
+nj.message.update=§6Changes in this version:Bug fixes
 nj.message.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
 nj.message.unstable_tool_use=This%1『%2』§rseems need upgrade...
 nj.message.lowversion=§c[Natural Journey]Demoting the Addon is not supported! You have loaded Natural Journey %1 in the world, but you're using %2 now!
@@ -39,7 +40,7 @@ item.smithing_template.diamond_upgrade.ingredients=Diamond
 upgrade.diamond_upgrade.name=Diamond Upgrade
 item.smithing_template.gold_upgrade.ingredients=Golden Ingot
 upgrade.gold_upgrade.name=Golden Upgrade
-item.smithing_template.iron_upgrade.applies_to=Stone Equipments
+item.smithing_template.iron_upgrade.applies_to=Copper Equipments
 item.smithing_template.iron_upgrade.ingredients=Iron Ingot
 upgrade.iron_upgrade.name=Iron Upgrade
 item.smithing_template.stone_upgrade.applies_to=Wooden Tools and Clothes
@@ -71,6 +72,20 @@ item.nj:unstable_wooden_hoe=Unstable Wooden Hoe
 item.nj:unstable_netherite_hoe=Unstable Netherite Hoe
 item.nj:netherite_enhance_dust=Netherite Enhance Dust
 item.nj:diamond_nugget=Diamond Nugget
+item.nj:unstable_copper_sword=Unstable Copper Sword
+item.nj:unstable_copper_axe=Unstable Copper Axe
+item.nj:unstable_copper_pickaxe=Unstable Copper Pickaxe
+item.nj:unstable_copper_shovel=Unstable Copper Shovel
+item.nj:unstable_copper_hoe=Unstable Copper Hoe
+item.copper_sword.name=Stable Copper Sword
+item.copper_axe.name=Stable Copper Axe
+item.copper_pickaxe.name=Stable Copper Pickaxe
+item.copper_shovel.name=Stable Copper Shovel
+item.copper_hoe.name=Stable Copper Hoe
+item.smithing_template.copper_upgrade.applies_to=Stone Equipments
+item.smithing_template.copper_upgrade.ingredients=Copper Ingot
+upgrade.copper_upgrade.name=Copper Upgrade
+item.nj:copper_enhance_dust=Copper Enhance Dust
 
 //vanilla
 item.diamond_sword.name=Stable Diamond Sword

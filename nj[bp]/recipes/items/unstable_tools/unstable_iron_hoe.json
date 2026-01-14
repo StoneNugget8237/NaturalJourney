@@ -4,7 +4,7 @@
     "description": {
     "identifier": "nj:unstable_iron_hoe"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [ "enhance_table" ],
     "pattern": [
       "XX",
       " Y",
@@ -18,7 +18,7 @@
         "item": "nj:iron_processing_template"
       },
       "Z": {
-        "item": "nj:unstable_stone_hoe"
+        "item": "nj:unstable_copper_hoe"
       }
     },
 	"unlock": [
