@@ -432,7 +432,7 @@
       },
       "minecraft:icon":{
         "textures": {
-          "default": "mc.stone_pickaxe"
+          "default": "nj.unstable_stone_pickaxe"
         }
       },
       "minecraft:display_name":{
@@ -441,7 +441,7 @@
       "minecraft:damage":{
         "value": 3
       },
-      "minecraft:tags": {"tags": ["minecraft:is_pickaxe","nj:unstable_tool","nj:made_of_stone"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_pickaxe","nj:unstable_tool","nj:made_of_stone"]}
     }
     }
   }

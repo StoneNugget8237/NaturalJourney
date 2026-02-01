@@ -2,32 +2,30 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "minecraft:stone_axe"
-    },
+      "identifier": "minecraft:stone_axe"
+    },   
     "tags": [ "crafting_table" ],
     "pattern": [
       "XX",
-      "XY",
-      " Z"
+      "X#",
+      " #"
     ],
     "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
       "X": {
-        "item": "minecraft:cobblestone"
-      },
-      "Y": {
-        "item": "nj:stone_processing_template"
-      },
-      "Z": {
-        "item": "minecraft:wooden_axe"
+        "tag": "minecraft:stone_tool_materials"
       }
     },
 	"unlock": [
       {
-        "item": "minecraft:cobblestone"
+        "tag": "minecraft:stone_tool_materials"
       }
     ],
     "result": {
-      "item": "minecraft:stone_axe"
-    }
+      "item": "nj:unstable_stone_axe"
+    },
+    "priority": -1
   }
 }

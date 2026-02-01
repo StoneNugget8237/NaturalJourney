@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nj:diamond_nugget_to_name_tag"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:paper"
+      },
+      "X": {
+        "item": "nj:diamond_nugget"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:paper"
+      }
+    ],
+    "result": {
+      "item": "minecraft:name_tag"
+    }
+  }
+}

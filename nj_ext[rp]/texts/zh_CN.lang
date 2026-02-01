@@ -1,9 +1,9 @@
 //core
 pack.name=自然行记·玩法扩展·资源包
-pack.description=自然行记·玩法扩展的配套资源包 | 测试版0.1.5-beta.1
-nj_ext.message.version=§b已成功加载自然行记·玩法扩展版本0.1.5-beta.1
+pack.description=自然行记·玩法扩展的配套资源包 | 测试版0.1.5-beta.2
+nj_ext.message.version=§b已成功加载自然行记·玩法扩展版本0.1.5-beta.2
 nj_ext.message.trial=§c您正在使用§l测试版本§r§c的自然行记·玩法扩展，可能伴随漏洞、不稳定和崩溃！
-nj_ext.message.update=§6当前版本更新内容：支持主包0.1.5-beta.1
+nj_ext.message.update=§6当前版本更新内容：支持主包0.1.5-beta.2
 nj_ext.message.copyright=§r本Addon由@StoneNugget主要制作，版权归属星屹工作室所有，同时感谢@RawDiamondMC对本Addon的贡献。您可在可信的发布渠道（如苦力怕论坛）向我们提出反馈！
 nj_ext.message.nonj=§c[自然行记·玩法扩展]自然行记本体未安装或版本有误，请安装或更新自然行记本体
 nj_ext.message.getaward=恭喜您，获得了奖品§c『%1』§r*%2

@@ -1,9 +1,9 @@
 //core
 pack.name=自然行记·资源包
-pack.description=自然行记的配套资源包 | 测试版0.1.5-beta.1
-nj.message.version=§b已成功加载自然行记版本0.1.5-beta.1
+pack.description=自然行记的配套资源包 | 测试版0.1.5-beta.2
+nj.message.version=§b已成功加载自然行记版本0.1.5-beta.2
 nj.message.trial=§c您正在使用§l测试版本§r§c的自然行记，可能伴随漏洞、不稳定和崩溃！
-nj.message.update=§6当前版本更新内容：漏洞修复
+nj.message.update=§6当前版本更新内容：箱子战利品、合成表调整、纹理调整
 nj.message.copyright=§r本Addon由@StoneNugget主要制作，版权归属星屹工作室所有，同时感谢@RawDiamondMC对本Addon的贡献。您可在可信的发布渠道（如苦力怕论坛）向我们提出反馈！
 nj.message.unstable_tool_use=这把%1『%2』§r似乎需要更稳定一些...
 nj.message.lowversion=§c[自然行记]不支持对Addon降级！世界中有Addon版本%1的加载记录,但当前使用的版本为%2

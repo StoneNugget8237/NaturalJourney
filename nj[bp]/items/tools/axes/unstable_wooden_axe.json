@@ -112,7 +112,7 @@
       },
       "minecraft:icon":{
         "textures": {
-          "default": "mc.wooden_axe"
+          "default": "nj.unstable_wooden_axe"
         }
       },
       "minecraft:display_name":{
@@ -121,7 +121,7 @@
       "minecraft:damage":{
         "value": 3
       },
-      "minecraft:tags": {"tags": ["minecraft:is_axe","nj:unstable_tool","nj:made_of_wood"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_axe","nj:unstable_tool","nj:made_of_wood"]}
     }
     }
   }

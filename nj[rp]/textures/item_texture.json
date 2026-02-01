@@ -47,6 +47,27 @@
         "mc.netherite_sword":{
             "textures": "textures/items/vanilla/netherite_sword"
         },
+        "nj.unstable_diamond_sword":{
+            "textures": "textures/items/tools/unstable_diamond_sword"
+        },
+        "nj.unstable_gold_sword":{
+            "textures": "textures/items/tools/unstable_golden_sword"
+        },
+        "nj.unstable_iron_sword":{
+            "textures": "textures/items/tools/unstable_iron_sword"
+        },
+        "nj.unstable_stone_sword":{
+            "textures": "textures/items/tools/unstable_stone_sword"
+        },
+        "nj.unstable_wooden_sword":{
+            "textures": "textures/items/tools/unstable_wooden_sword"
+        },
+        "nj.unstable_netherite_sword":{
+            "textures": "textures/items/tools/unstable_netherite_sword"
+        },
+        "nj.unstable_copper_sword":{
+            "textures": "textures/items/tools/unstable_copper_sword"
+        },
         "mc.diamond_axe":{
             "textures": "textures/items/vanilla/diamond_axe"
         },
@@ -82,6 +103,27 @@
         },
         "mc.diamond_pickaxe":{
             "textures": "textures/items/vanilla/diamond_pickaxe"
+        },
+        "nj.unstable_diamond_axe":{
+            "textures": "textures/items/tools/unstable_diamond_axe"
+        },
+        "nj.unstable_gold_axe":{
+            "textures": "textures/items/tools/unstable_golden_axe"
+        },
+        "nj.unstable_iron_axe":{
+            "textures": "textures/items/tools/unstable_iron_axe"
+        },
+        "nj.unstable_stone_axe":{
+            "textures": "textures/items/tools/unstable_stone_axe"
+        },
+        "nj.unstable_wooden_axe":{
+            "textures": "textures/items/tools/unstable_wooden_axe"
+        },
+        "nj.unstable_netherite_axe":{
+            "textures": "textures/items/tools/unstable_netherite_axe"
+        },
+        "nj.unstable_copper_axe":{
+            "textures": "textures/items/tools/unstable_copper_axe"
         },
         "mc.gold_hoe":{
             "textures": "textures/items/vanilla/gold_hoe"
@@ -119,11 +161,74 @@
         "mc.diamond_shovel":{
             "textures": "textures/items/vanilla/diamond_shovel"
         },
+        "nj.unstable_gold_pickaxe":{
+            "textures": "textures/items/tools/unstable_golden_pickaxe"
+        },
+        "nj.unstable_iron_pickaxe":{
+            "textures": "textures/items/tools/unstable_iron_pickaxe"
+        },
+        "nj.unstable_stone_pickaxe":{
+            "textures": "textures/items/tools/unstable_stone_pickaxe"
+        },
+        "nj.unstable_wooden_pickaxe":{
+            "textures": "textures/items/tools/unstable_wooden_pickaxe"
+        },
+        "nj.unstable_netherite_pickaxe":{
+            "textures": "textures/items/tools/unstable_netherite_pickaxe"
+        },
+        "nj.unstable_diamond_pickaxe":{
+            "textures": "textures/items/tools/unstable_diamond_pickaxe"
+        },
+        "nj.unstable_copper_pickaxe":{
+            "textures": "textures/items/tools/unstable_copper_pickaxe"
+        },
+        "nj.unstable_gold_shovel":{
+            "textures": "textures/items/tools/unstable_golden_shovel"
+        },
+        "nj.unstable_iron_shovel":{
+            "textures": "textures/items/tools/unstable_iron_shovel"
+        },
+        "nj.unstable_stone_shovel":{
+            "textures": "textures/items/tools/unstable_stone_shovel"
+        },
+        "nj.unstable_wooden_shovel":{
+            "textures": "textures/items/tools/unstable_wooden_shovel"
+        },
+        "nj.unstable_netherite_shovel":{
+            "textures": "textures/items/tools/unstable_netherite_shovel"
+        },
+        "nj.unstable_diamond_shovel":{
+            "textures": "textures/items/tools/unstable_diamond_shovel"
+        },
+        "nj.unstable_copper_shovel":{
+            "textures": "textures/items/tools/unstable_copper_shovel"
+        },
         "nj.netherite_enhance_dust": {
             "textures": "textures/items/netherite_enhance_dust"
         },
         "nj.diamond_nugget": {
             "textures": "textures/items/diamond_nugget"
+        },
+        "nj.unstable_gold_hoe":{
+            "textures": "textures/items/tools/unstable_golden_hoe"
+        },
+        "nj.unstable_iron_hoe":{
+            "textures": "textures/items/tools/unstable_iron_hoe"
+        },
+        "nj.unstable_stone_hoe":{
+            "textures": "textures/items/tools/unstable_stone_hoe"
+        },
+        "nj.unstable_wooden_hoe":{
+            "textures": "textures/items/tools/unstable_wooden_hoe"
+        },
+        "nj.unstable_netherite_hoe":{
+            "textures": "textures/items/tools/unstable_netherite_hoe"
+        },
+        "nj.unstable_diamond_hoe":{
+            "textures": "textures/items/tools/unstable_diamond_hoe"
+        },
+        "nj.unstable_copper_hoe":{
+            "textures": "textures/items/tools/unstable_copper_hoe"
         }
     }
 }

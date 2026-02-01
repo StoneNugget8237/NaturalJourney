@@ -56,7 +56,7 @@
       },
       "minecraft:icon":{
         "textures": {
-          "default": "mc.gold_shovel"
+          "default": "nj.unstable_gold_shovel"
         }
       },
       "minecraft:display_name":{
@@ -65,7 +65,7 @@
       "minecraft:damage":{
         "value": 1
       },
-      "minecraft:tags": {"tags": ["minecraft:is_shovel","nj:unstable_tool","nj:made_of_gold"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_shovel","nj:unstable_tool","nj:made_of_gold"]}
     }
     }
   }

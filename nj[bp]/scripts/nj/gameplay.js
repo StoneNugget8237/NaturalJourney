@@ -103,7 +103,15 @@ world.afterEvents.playerBreakBlock.subscribe((event)=>{
     system.run(()=>{
       if(item.hasTag("minecraft:is_tool")==true){
         if(item.hasTag("nj:unstable_tool")==true){
-          toolusing(player, item, false, target, 1)
+          const durability=item.getComponent("minecraft:durability")
+          if(durability.damage+1>=durability.maxDurability){
+            player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand)
+            player.playSound("random.break")
+          }
+          else{
+            durability.damage += 1
+            toolusing(player, item, false, target, 1)
+          }
         }
         else{
           toolusing(player, item, false, target, 0)
@@ -122,7 +130,15 @@ world.afterEvents.entityHitEntity.subscribe((event)=>{
     system.run(()=>{
       if(item.hasTag("minecraft:is_tool")==true){
         if(item.hasTag("nj:unstable_tool")==true){
-          toolusing(player, item, false, target, 1)
+          const durability=item.getComponent("minecraft:durability")
+          if(durability.damage+1>=durability.maxDurability){
+            player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand)
+            player.playSound("random.break")
+          }
+          else{
+            durability.damage += 1
+            toolusing(player, item, false, target, 1)
+          }
         }
         else{
           toolusing(player, item, false, target, 0)

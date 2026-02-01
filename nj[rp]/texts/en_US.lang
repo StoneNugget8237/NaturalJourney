@@ -1,9 +1,9 @@
 //core
 pack.name=Natural Journey·Resource Pack
-pack.description=Resource pack of Natural Journey | Trial 0.1.5-beta.1
-nj.message.version=§bSuccessfully loaded Natural Journey v0.1.5-beta.1
+pack.description=Resource pack of Natural Journey | Trial 0.1.5-beta.2
+nj.message.version=§bSuccessfully loaded Natural Journey v0.1.5-beta.2
 nj.message.trial=§cPlease note that this is a TRIAL VERSION of Natural Journey, with bugs and crashes!
-nj.message.update=§6Changes in this version:Bug fixes
+nj.message.update=§6Changes in this version:Loots, Recipes & Textures
 nj.message.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
 nj.message.unstable_tool_use=This%1『%2』§rseems need upgrade...
 nj.message.lowversion=§c[Natural Journey]Demoting the Addon is not supported! You have loaded Natural Journey %1 in the world, but you're using %2 now!

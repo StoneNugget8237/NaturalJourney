@@ -4,7 +4,7 @@
 		"name": "pack.name",
 		"description": "pack.description",
 		"uuid": "a0bbc5d2-d092-44d7-9349-ce40a4d4adcc",
-		"version": "0.1.5-beta.1",
+		"version": "0.1.5-beta.2",
 		"min_engine_version": [1, 21, 130]
 	},
 	"modules": [
@@ -12,7 +12,7 @@
 			"description": "test",
 			"type": "data",
 			"uuid":"2863d196-ca00-4f4c-9d6a-67f2528f6e9c",
-			"version": "0.1.5-beta.1"
+			"version": "0.1.5-beta.2"
 		},
 		{
             "type": "script",
@@ -20,17 +20,17 @@
 			"language": "javascript",
             "entry": "scripts/main.js",
             "uuid": "13cb6649-b661-4b7f-836b-2f21edf88df2",
-            "version": "0.1.5-beta.1"
+            "version": "0.1.5-beta.2"
         }
 	],
     "dependencies": [
 		{
 			"uuid": "00996a59-b5b8-4b3f-ae45-0d6e3afad483",
-			"version": "0.1.5-beta.1"
+			"version": "0.1.5-beta.2"
 		},
 		{
 			"uuid": "5ca35b05-4406-4c12-b0d6-1aed76b37391",
-			"version": "0.1.5-beta.1"
+			"version": "0.1.5-beta.2"
 		},
 		{
 			"module_name": "@minecraft/server-ui",

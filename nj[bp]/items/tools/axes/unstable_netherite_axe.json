@@ -112,7 +112,7 @@
       },
       "minecraft:icon":{
         "textures": {
-          "default": "mc.netherite_axe"
+          "default": "nj.unstable_netherite_axe"
         }
       },
       "minecraft:display_name":{
@@ -121,7 +121,7 @@
       "minecraft:damage":{
         "value": 7
       },
-      "minecraft:tags": {"tags": ["minecraft:is_axe","nj:unstable_tool","nj:made_of_netherite"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_axe","nj:unstable_tool","nj:made_of_netherite"]}
     }
     }
   }

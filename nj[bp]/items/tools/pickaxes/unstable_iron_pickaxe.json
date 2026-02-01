@@ -432,7 +432,7 @@
       },
       "minecraft:icon":{
         "textures": {
-          "default": "mc.iron_pickaxe"
+          "default": "nj.unstable_iron_pickaxe"
         }
       },
       "minecraft:display_name":{
@@ -441,7 +441,7 @@
       "minecraft:damage":{
         "value": 4
       },
-      "minecraft:tags": {"tags": ["minecraft:is_pickaxe","nj:unstable_tool","nj:made_of_iron"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_pickaxe","nj:unstable_tool","nj:made_of_iron"]}
     }
     }
   }

@@ -6,10 +6,10 @@
       "menu_category": {"category": "equipment","group": "itemGroup.name.sword"}
     },
     "components": {
-      "minecraft:tags": {"tags": ["minecraft:is_sword","nj:unstable_tool","nj:made_of_stone"]},
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_sword","nj:unstable_tool","nj:made_of_stone"]},
       "minecraft:icon":{
         "textures": {
-          "default": "mc.stone_sword"
+          "default": "nj.unstable_stone_sword"
         }
       },
       "minecraft:enchantable": {

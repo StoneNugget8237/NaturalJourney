@@ -112,7 +112,7 @@
       },
       "minecraft:icon":{
         "textures": {
-          "default": "mc.iron_axe"
+          "default": "nj.unstable_iron_axe"
         }
       },
       "minecraft:display_name":{
@@ -121,7 +121,7 @@
       "minecraft:damage":{
         "value": 5
       },
-      "minecraft:tags": {"tags": ["minecraft:is_axe","nj:unstable_tool","nj:made_of_iron"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_axe","nj:unstable_tool","nj:made_of_iron"]}
     }
     }
   }

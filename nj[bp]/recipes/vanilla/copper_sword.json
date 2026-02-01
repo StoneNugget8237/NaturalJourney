@@ -1,33 +1,32 @@
 {
-  "format_version": "1.20.10",
+  "format_version": "1.21.80",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "minecraft:copper_sword"
+      "identifier": "minecraft:copper_sword"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [
+      "crafting_table"
+    ],
     "pattern": [
       "X",
       "X",
-      "ZY"
+      "#"
     ],
     "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
       "X": {
         "item": "minecraft:copper_ingot"
-      },
-      "Y": {
-        "item": "nj:copper_processing_template"
-      },
-      "Z": {
-        "item": "minecraft:stone_sword"
       }
     },
-	"unlock": [
+    "unlock": [
       {
         "item": "minecraft:copper_ingot"
       }
     ],
     "result": {
-      "item": "minecraft:copper_sword"
+      "item": "nj:unstable_copper_sword"
     }
   }
 }

@@ -6,15 +6,20 @@
     },
     "tags": [ "crafting_table" ],
     "pattern": [
-      "X"
+      "XXX",
+      " # ",
+      " # "
     ],
     "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
       "X": {
-        "item": "minecraft:bedrock"
+        "item": "minecraft:cobbled_deepslate"
       }
     },
     "result": {
-      "item": "minecraft:bedrock"
+      "item": "nj:unstable_stone_pickaxe"
     },
     "priority": 2
   }
