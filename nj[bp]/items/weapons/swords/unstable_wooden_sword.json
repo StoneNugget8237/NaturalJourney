@@ -6,7 +6,7 @@
       "menu_category": {"category": "equipment","group": "itemGroup.name.sword"}
     },
     "components": {
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_sword","nj:unstable_tool","nj:made_of_wood"]},
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_sword","nj:unstable_tool","minecraft:wooden_tier"]},
       "minecraft:icon":{
         "textures": {
           "default": "nj.unstable_wooden_sword"

@@ -229,6 +229,27 @@
         },
         "nj.unstable_copper_hoe":{
             "textures": "textures/items/tools/unstable_copper_hoe"
+        },
+        "nj.unstable_wooden_spear":{
+            "textures": "textures/items/tools/unstable_wooden_spear"
+        },
+        "nj.unstable_stone_spear":{
+            "textures": "textures/items/tools/unstable_stone_spear"
+        },
+        "nj.unstable_copper_spear":{
+            "textures": "textures/items/tools/unstable_copper_spear"
+        },
+        "nj.unstable_iron_spear":{
+            "textures": "textures/items/tools/unstable_iron_spear"
+        },
+        "nj.unstable_golden_spear":{
+            "textures": "textures/items/tools/unstable_golden_spear"
+        },
+        "nj.unstable_diamond_spear":{
+            "textures": "textures/items/tools/unstable_diamond_spear"
+        },
+        "nj.unstable_netherite_spear":{
+            "textures": "textures/items/tools/unstable_netherite_spear"
         }
     }
 }

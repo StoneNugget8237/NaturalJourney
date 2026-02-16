@@ -123,7 +123,7 @@
       "minecraft:damage":{
         "value": 5
       },
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_hoe","nj:unstable_tool","nj:made_of_copper"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_hoe","nj:unstable_tool","minecraft:copper_tier"]}
     }
     }
   }

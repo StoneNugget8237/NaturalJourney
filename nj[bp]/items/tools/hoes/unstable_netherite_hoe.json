@@ -123,7 +123,7 @@
       "minecraft:damage":{
         "value": 6
       },
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_hoe","nj:unstable_tool","nj:made_of_netherite"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_hoe","nj:unstable_tool","minecraft:netherite_tier"]}
     }
     }
   }

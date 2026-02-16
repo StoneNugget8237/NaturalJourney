@@ -6,7 +6,7 @@
       "menu_category": {"category": "equipment","group": "itemGroup.name.sword"}
     },
     "components": {
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_sword","nj:unstable_tool","nj:made_of_gold"]},
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_sword","nj:unstable_tool","minecraft:golden_tier"]},
       "minecraft:icon":{
         "textures": {
           "default": "nj.unstable_gold_sword"

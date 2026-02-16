@@ -10,7 +10,8 @@
           "textures": {
             "default": "nj.diamond_nugget"
           }
-        }
+        },
+        "minecraft:tags": {"tags": ["minecraft:metal_nuggets"]}
       }
     }
   }

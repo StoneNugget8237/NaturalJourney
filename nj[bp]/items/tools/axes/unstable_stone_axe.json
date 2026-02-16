@@ -121,7 +121,7 @@
       "minecraft:damage":{
         "value": 4
       },
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_axe","nj:unstable_tool","nj:made_of_stone"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_axe","nj:unstable_tool","minecraft:stone_tier"]}
     }
     }
   }

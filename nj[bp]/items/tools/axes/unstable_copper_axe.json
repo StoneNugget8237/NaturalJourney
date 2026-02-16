@@ -121,7 +121,7 @@
       "minecraft:damage":{
         "value": 4
       },
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_axe","nj:unstable_tool","nj:made_of_copper","minecraft:transformable_items"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_axe","nj:unstable_tool","minecraft:copper_tier"]}
     }
     }
   }

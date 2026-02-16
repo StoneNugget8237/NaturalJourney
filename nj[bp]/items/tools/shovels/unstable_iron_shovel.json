@@ -65,7 +65,7 @@
       "minecraft:damage":{
         "value": 3
       },
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_shovel","nj:unstable_tool","nj:made_of_iron"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_shovel","nj:unstable_tool","minecraft:iron_tier"]}
     }
     }
   }

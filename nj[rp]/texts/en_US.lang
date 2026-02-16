@@ -1,9 +1,9 @@
 //core
 pack.name=Natural Journey·Resource Pack
-pack.description=Resource pack of Natural Journey | Trial 0.1.5-beta.2
-nj.message.version=§bSuccessfully loaded Natural Journey v0.1.5-beta.2
+pack.description=Resource pack of Natural Journey | Trial 0.1.5-beta.3
+nj.message.version=§bSuccessfully loaded Natural Journey v0.1.5-beta.3
 nj.message.trial=§cPlease note that this is a TRIAL VERSION of Natural Journey, with bugs and crashes!
-nj.message.update=§6Changes in this version:Loots, Recipes & Textures
+nj.message.update=§6Changes in this version:Spears
 nj.message.copyright=§rThis Addon is made by @StoneNugget, copyright belongs to CTN Studios, and thank @RawDiamondMC for his contribution. Please give us feedback at trusted publishing channels(e.g. klpbbs.com)§r!
 nj.message.unstable_tool_use=This%1『%2』§rseems need upgrade...
 nj.message.lowversion=§c[Natural Journey]Demoting the Addon is not supported! You have loaded Natural Journey %1 in the world, but you're using %2 now!
@@ -86,6 +86,13 @@ item.smithing_template.copper_upgrade.applies_to=Stone Equipments
 item.smithing_template.copper_upgrade.ingredients=Copper Ingot
 upgrade.copper_upgrade.name=Copper Upgrade
 item.nj:copper_enhance_dust=Copper Enhance Dust
+item.nj:unstable_wooden_spear=Unstable Wooden Spear
+item.nj:unstable_stone_spear=Unstable Stone Spear
+item.nj:unstable_copper_spear=Unstable Copper Spear
+item.nj:unstable_iron_spear=Unstable Iron Spear
+item.nj:unstable_golden_spear=Unstable Golden Spear
+item.nj:unstable_diamond_spear=Unstable Diamond Spear
+item.nj:unstable_netherite_spear=Unstable Netherite Spear
 
 //vanilla
 item.diamond_sword.name=Stable Diamond Sword
@@ -128,3 +135,10 @@ item.leather_boots.name=Shoes
 item.leather_chestplate.name=Shirt
 item.leather_helmet.name=Cap
 item.leather_leggings.name=Trousers
+item.diamond_spear.name=Stable Diamond Spear
+item.wooden_spear.name=Stable Wooden Spear
+item.stone_spear.name=Stable Stone Spear
+item.copper_spear.name=Stable Copper Spear
+item.golden_spear.name=Stable Golden Spear
+item.netherite_spear.name=Stable Netherite Spear
+item.iron_spear.name=Stable Irom Spear

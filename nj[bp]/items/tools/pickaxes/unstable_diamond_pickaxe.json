@@ -441,7 +441,7 @@
       "minecraft:damage":{
         "value": 5
       },
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_pickaxe","nj:unstable_tool","nj:made_of_diamond"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_pickaxe","nj:unstable_tool","minecraft:diamond_tier","minecraft:transformable_items"]}
     }
     }
   }

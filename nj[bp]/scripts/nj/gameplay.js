@@ -26,7 +26,10 @@ function getDisplayColor(itemStack){
 }
 
 function toolusing(player,itemStack,isHittingEntities,target,i){
+  const packSettings = world.getPackSettings()
+  const isDropEffectEnabled=packSettings["nj:enable_drop"]
   var weight=randomInteger(1, 100)
+  console.log(`Random Weight is ${String(weight)}`)
   if(weight>=1&&weight<=3-i){
     player.addEffect("haste",60,{amplifier:0,showParticles:false})
     player.sendMessage(`%nj.message.haste`)
@@ -55,7 +58,7 @@ function toolusing(player,itemStack,isHittingEntities,target,i){
     player.applyDamage(4)
     player.sendMessage(`%nj.message.damage`)
   }
-  if(weight>=18+i&&weight<=19+2*i){
+  if(weight>=18+i&&weight<=19+2*i&&isDropEffectEnabled==true){
     var dimension=player.dimension
     var location=player.location
     var itemSummonx=location.x+randomInteger(-3, 3)
@@ -101,7 +104,7 @@ world.afterEvents.playerBreakBlock.subscribe((event)=>{
   const gamemode=player.getGameMode()
   if(gamemode=="Survival"||gamemode=="Adventure"){
     system.run(()=>{
-      if(item.hasTag("minecraft:is_tool")==true){
+      if(item.hasTag("minecraft:is_tool"||"minecraft:is_spear")==true){
         if(item.hasTag("nj:unstable_tool")==true){
           const durability=item.getComponent("minecraft:durability")
           if(durability.damage+1>=durability.maxDurability){
@@ -110,7 +113,8 @@ world.afterEvents.playerBreakBlock.subscribe((event)=>{
           }
           else{
             durability.damage += 1
-            toolusing(player, item, false, target, 1)
+            player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,item)
+            toolusing(player, item, false, target, 0)
           }
         }
         else{
@@ -128,20 +132,21 @@ world.afterEvents.entityHitEntity.subscribe((event)=>{
   const gamemode=player.getGameMode();
   if(gamemode=="Survival"||gamemode=="Adventure"){
     system.run(()=>{
-      if(item.hasTag("minecraft:is_tool")==true){
+      if(item.hasTag("minecraft:is_tool")===true||item.hasTag("minecraft:is_spear")===true){
         if(item.hasTag("nj:unstable_tool")==true){
-          const durability=item.getComponent("minecraft:durability")
+          var durability=item.getComponent("durability")
           if(durability.damage+1>=durability.maxDurability){
             player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand)
             player.playSound("random.break")
           }
           else{
             durability.damage += 1
-            toolusing(player, item, false, target, 1)
+            player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,item)
+            toolusing(player, item, true, target, 0)
           }
         }
         else{
-          toolusing(player, item, false, target, 0)
+          toolusing(player, item, true, target, 0)
         }
       }
     })

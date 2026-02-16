@@ -123,7 +123,7 @@
       "minecraft:damage":{
         "value": 4
       },
-      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_hoe","nj:unstable_tool","nj:made_of_iron"]}
+      "minecraft:tags": {"tags": ["minecraft:is_tool","minecraft:is_hoe","nj:unstable_tool","minecraft:iron_tier"]}
     }
     }
   }

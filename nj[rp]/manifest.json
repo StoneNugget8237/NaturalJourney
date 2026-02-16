@@ -1,18 +1,18 @@
 {
-	"format_version": 2,
+	"format_version": 3,
 	"header": {
 		"name": "pack.name",
 		"description": "pack.description",
 		"uuid": "53fbfb5e-103a-478e-89ab-3f1705e96a6a",
-		"version": "0.1.5-beta.2",
-		"min_engine_version": [1, 21, 130]
+		"version": "0.1.5-beta.3",
+		"min_engine_version": "1.26.0"
 	},
 	"modules": [
 		{
 			"description": "test",
 			"type": "resources",
 			"uuid":"4746ddce-e1aa-42c9-9db8-5afe25f082e4",
-			"version": "0.1.5-beta.2"
+			"version": "0.1.5-beta.3"
 		}
 	]
 }
