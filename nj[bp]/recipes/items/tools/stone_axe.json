@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:unstable_stone_axe"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XX",
+      "XY",
+      " Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:cobblestone"
+      },
+      "Y": {
+        "item": "minecraft:stone_processing_template"
+      },
+      "Z": {
+        "item": "minecraft:unstable_wooden_axe"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "result": {
+      "item": "minecraft:unstable_stone_axe"
+    }
+  }
+}

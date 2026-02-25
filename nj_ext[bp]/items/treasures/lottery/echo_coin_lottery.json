@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "nj_ext:echo_coin_lottery",
+            "menu_category": {"category": "items","group": "itemGroup.name.items"}
+        },
+        "components": {
+            "minecraft:icon": {
+              "textures": {
+                "default": "nj_ext.echo_coin_lottery"
+              }
+            },
+            "minecraft:display_name":{
+              "value": "%nj_ext.item_name_display.echo_coin_lottery.name\n%nj_ext.item_name_display.lottery.instruction\n%nj_ext.item_name_display.echo_coin_lottery.earn"
+            }
+        }
+    }
+}

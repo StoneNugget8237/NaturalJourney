@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:stone_spear"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "  X",
+      " Z",
+      "Y"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:cobblestone"
+      },
+      "Y": {
+        "item": "nj:stone_processing_template"
+      },
+      "Z": {
+        "item": "minecraft:wooden_spear"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stone_spear"
+    }
+  }
+}

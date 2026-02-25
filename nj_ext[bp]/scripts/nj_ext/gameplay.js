@@ -25,36 +25,47 @@ world.afterEvents.itemUse.subscribe((event) => {
   switch (itemId) {
     case "nj_ext:copper_coin_lottery":
       try {
-        new ItemStack("hy:copper_coin");
+        new ItemStack("hiddenyears:copper_coin");
       } catch (ignored) {
         player.sendMessage(
           "%nj_ext.message.nohy",
         );
         return;
       }
-      giveAward(player, itemStack, "铜币", "hy:copper_coin", 15, 25,"hy.item.copper_coin");
+      giveAward(player, itemStack, "铜币", "hiddenyears:copper_coin", 15, 25,"item.hiddenyears:copper_coin");
       break;
     case "nj_ext:diamond_coin_lottery":
       try {
-        new ItemStack("hy:copper_coin");
+        new ItemStack("hiddenyears:copper_coin");
       } catch (ignored) {
         player.sendMessage(
           "%nj_ext.message.nohy",
         );
         return;
       }
-      giveAward(player, itemStack, "钻石币", "hy:diamond_coin", 2, 4,"hy.item.diamond_coin");
+      giveAward(player, itemStack, "钻石币", "hiddenyears:diamond_coin", 3, 6,"item.hiddenyears:diamond_coin");
+      break;
+    case "nj_ext:echo_coin_lottery":
+      try {
+        new ItemStack("hiddenyears:copper_coin");
+      } catch (ignored) {
+        player.sendMessage(
+          "%nj_ext.message.nohy",
+        );
+        return;
+      }
+      giveAward(player, itemStack, "回响硬币", "hiddenyears:echo_coin", 1, 3,"item.hiddenyears:echo_coin");
       break;
     case "nj_ext:gold_coin_lottery":
       try {
-        new ItemStack("hy:copper_coin");
+        new ItemStack("hiddenyears:copper_coin");
       } catch (ignored) {
         player.sendMessage(
           "%nj_ext.message.nohy",
         );
         return;
       }
-      giveAward(player, itemStack, "金币", "hy:gold_coin", 17, 24,"hy.item.gold_coin");
+      giveAward(player, itemStack, "金币", "hiddenyears:gold_coin", 17, 24,"item.hiddenyears:gold_coin");
       break;
     case "nj_ext:stone_coin_lottery":
       try {
@@ -65,7 +76,7 @@ world.afterEvents.itemUse.subscribe((event) => {
         );
         return;
       }
-      giveAward(player, itemStack, "石币", "sc:stone_coin", 50, 64,"item.sc:stone_coin.name");
+      giveAward(player, itemStack, "石币", "stonenugget:stone_coin", 50, 64,"stonecraft.item.stone_coin");
       break;
     case "nj_ext:emerald_lottery":
       giveAward(player, itemStack, "绿宝石", "minecraft:emerald", 17, 23,"item.emerald.name");

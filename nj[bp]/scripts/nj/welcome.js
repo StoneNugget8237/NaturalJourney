@@ -16,7 +16,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   if (needsendupdatemessage == -1) {
     world.setDynamicProperty("LatestLoadedNjAddonVersion", version);
     player.sendMessage("%nj.message.version\n%nj.message.update\n%nj.message.copyright")
-    player.sendMessage("%nj.message.trial")
+    //player.sendMessage("%nj.message.trial")
   } 
   if (needsendupdatemessage == 1) {
     player.sendMessage({translate:"nj.message.lowversion",with:[latestLoadedNjVersion,version]})

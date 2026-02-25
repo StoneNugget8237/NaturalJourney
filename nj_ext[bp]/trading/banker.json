@@ -15,91 +15,11 @@
                 ],
                 "gives": [
                   {
-                    "item": "hy:copper_coin",
-                    "quantity": {
-                      "min": 3,
-                      "max": 7
-                    }
-                  }
-                ],
-                "trader_exp": 2,
-                "max_uses": 3,
-                "reward_exp": true
-              },
-              {
-                "wants": [
-                  {
-                    "item": "minecraft:emerald",
-                    "quantity": 5
-                  }
-                ],
-                "gives": [
-                  {
-                    "item": "hy:gold_coin",
-                    "quantity": {
-                      "min": 4,
-                      "max": 5
-                    }
-                  }
-                ],
-                "trader_exp": 2,
-                "max_uses": 3,
-                "reward_exp": true
-              },
-              {
-                "wants": [
-                  {
-                    "item": "minecraft:emerald",
-                    "quantity": 5
-                  }
-                ],
-                "gives": [
-                  {
                     "item": "stonecraft:stone_coin",
                     "quantity": {
                       "min": 58,
                       "max": 64
                     }
-                  }
-                ],
-                "trader_exp": 2,
-                "max_uses": 3,
-                "reward_exp": true
-              },
-              {
-                "wants": [
-                  {
-                    "item": "minecraft:emerald",
-                    "quantity": {
-                      "min": 5,
-                      "max": 8
-                    }
-                  }
-                ],
-                "gives": [
-                  {
-                    "item": "hy:diamond_coin",
-                    "quantity": 1
-                  }
-                ],
-                "trader_exp": 2,
-                "max_uses": 3,
-                "reward_exp": true
-              },
-              {
-                "gives": [
-                  {
-                    "item": "minecraft:emerald",
-                    "quantity": {
-                      "min": 5,
-                      "max": 7
-                    }
-                  }
-                ],
-                "wants": [
-                  {
-                    "item": "hy:diamond_coin",
-                    "quantity": 1
                   }
                 ],
                 "trader_exp": 2,
@@ -129,27 +49,7 @@
               {
                 "wants": [
                   {
-                    "item": "hy:copper_coin",
-                    "quantity": {
-                      "min": 4,
-                      "max": 7
-                    }
-                  }
-                ],
-                "gives": [
-                  {
-                    "item": "minecraft:emerald",
-                    "quantity": 5
-                  }
-                ],
-                "trader_exp": 2,
-                "max_uses": 3,
-                "reward_exp": true
-              },
-              {
-                "wants": [
-                  {
-                    "item": "hy:copper_coin",
+                    "item": "hiddenyears:copper_coin",
                     "quantity": {
                       "min": 4,
                       "max": 6
@@ -181,7 +81,7 @@
                 ],
                 "gives": [
                   {
-                    "item": "hy:copper_coin",
+                    "item": "hiddenyears:copper_coin",
                     "quantity": {
                       "min": 5,
                       "max": 7
@@ -191,6 +91,195 @@
                 "trader_exp": 2,
                 "max_uses": 3,
                 "reward_exp": true
+              }
+            ]
+          },
+          {
+            "num_to_select": 2,
+            "trades": [
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity": 5
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hiddenyears:copper_coin",
+                    "quantity": {
+                      "min": 3,
+                      "max": 7
+                    }
+                  }
+                ],
+                "trader_exp": 2,
+                "max_uses": 3,
+                "reward_exp": true
+              },
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity": 5
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hiddenyears:gold_coin",
+                    "quantity": {
+                      "min": 4,
+                      "max": 5
+                    }
+                  }
+                ],
+                "trader_exp": 2,
+                "max_uses": 3,
+                "reward_exp": true
+              },
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity": {
+                      "min": 5,
+                      "max": 8
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hiddenyears:diamond_coin",
+                    "quantity": 1
+                  }
+                ],
+                "trader_exp": 2,
+                "max_uses": 3,
+                "reward_exp": true
+              },
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity": {
+                      "min": 10,
+                      "max": 14
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "hiddenyears:echo_coin",
+                    "quantity": 1
+                  }
+                ],
+                "trader_exp": 2,
+                "max_uses": 3,
+                "reward_exp": true
+              },
+              {
+                "gives": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity": {
+                      "min": 5,
+                      "max": 7
+                    }
+                  }
+                ],
+                "wants": [
+                  {
+                    "item": "hiddenyears:diamond_coin",
+                    "quantity": 1
+                  }
+                ],
+                "trader_exp": 2,
+                "max_uses": 3,
+                "reward_exp": true
+              },
+              {
+                "gives": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity": {
+                      "min": 10,
+                      "max": 14
+                    }
+                  }
+                ],
+                "wants": [
+                  {
+                    "item": "hiddenyears:echo_coin",
+                    "quantity": 1
+                  }
+                ],
+                "trader_exp": 2,
+                "max_uses": 3,
+                "reward_exp": true
+              },
+              {
+                "wants": [
+                  {
+                    "item": "hiddenyears:copper_coin",
+                    "quantity": {
+                      "min": 4,
+                      "max": 7
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity": 5
+                  }
+                ],
+                "trader_exp": 2,
+                "max_uses": 3,
+                "reward_exp": true
+              }
+            ]
+          },
+          {
+            "num_to_select": 1,
+            "trades": [
+              {
+                "wants": [
+                  {
+                    "item": "minecraft:emerald",
+                    "quantity":{
+                      "min": 4,
+                      "max": 6
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "nj_ext:stone_coin_lottery"
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
+              },
+              {
+                "wants": [
+                  {
+                    "item": "stonecraft:stone_coin",
+                    "quantity":{
+                      "min": 54,
+                      "max": 62
+                    }
+                  }
+                ],
+                "gives": [
+                  {
+                    "item": "nj_ext:emerald_lottery",
+                    "quantity":1
+                  }
+                ],
+                "trader_exp": 2,
+                "reward_exp": true,
+                "max_uses": 3
               }
             ]
           },
@@ -260,47 +349,7 @@
               {
                 "wants": [
                   {
-                    "item": "minecraft:emerald",
-                    "quantity":{
-                      "min": 4,
-                      "max": 6
-                    }
-                  }
-                ],
-                "gives": [
-                  {
-                    "item": "nj_ext:stone_coin_lottery"
-                  }
-                ],
-                "trader_exp": 2,
-                "reward_exp": true,
-                "max_uses": 3
-              },
-              {
-                "wants": [
-                  {
-                    "item": "stonecraft:stone_coin",
-                    "quantity":{
-                      "min": 54,
-                      "max": 62
-                    }
-                  }
-                ],
-                "gives": [
-                  {
-                    "item": "nj_ext:emerald_lottery",
-                    "quantity":1
-                  }
-                ],
-                "trader_exp": 2,
-                "reward_exp": true,
-                "max_uses": 3
-              }
-              ,
-              {
-                "wants": [
-                  {
-                    "item": "hy:copper_coin",
+                    "item": "hiddenyears:copper_coin",
                     "quantity":{
                       "min": 15,
                       "max": 21
@@ -320,7 +369,7 @@
               {
                 "wants": [
                   {
-                    "item": "hy:gold_coin",
+                    "item": "hiddenyears:gold_coin",
                     "quantity":{
                       "min": 16,
                       "max": 20
@@ -340,7 +389,7 @@
               {
                 "wants": [
                   {
-                    "item": "hy:diamond_coin",
+                    "item": "hiddenyears:diamond_coin",
                     "quantity":{
                       "min": 2,
                       "max": 3
@@ -365,7 +414,7 @@
               {
                 "wants": [
                   {
-                    "item": "hy:stack_of_copper_coin",
+                    "item": "hiddenyears:stack_of_copper_coin",
                     "quantity":{
                       "min": 1,
                       "max": 3
@@ -385,7 +434,7 @@
               {
                 "wants": [
                   {
-                    "item": "hy:stack_of_gold_coin",
+                    "item": "hiddenyears:stack_of_gold_coin",
                     "quantity":{
                       "min": 2,
                       "max": 3
@@ -405,7 +454,7 @@
               {
                 "wants": [
                   {
-                    "item": "hy:stack_of_diamond_coin",
+                    "item": "hiddenyears:stack_of_diamond_coin",
                     "quantity":1
                   }
                 ],

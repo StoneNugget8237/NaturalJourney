@@ -250,6 +250,12 @@
         },
         "nj.unstable_netherite_spear":{
             "textures": "textures/items/tools/unstable_netherite_spear"
+        },
+        "nj.copper_processing_template": {
+            "textures": "textures/items/copper_processing_template"
+        },
+        "nj.copper_enhance_dust": {
+            "textures": "textures/items/copper_enhance_dust"
         }
     }
 }

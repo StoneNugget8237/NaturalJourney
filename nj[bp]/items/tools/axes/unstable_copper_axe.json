@@ -16,8 +16,8 @@
         }
       },
       "minecraft:digger": {
-                "use_efficiency": true,
-                "destroy_speeds": [
+        "use_efficiency": true,
+        "destroy_speeds": [
           {
             "block": {
               "tags": "query.any_tag('wood', 'pumpkin', 'plant')"

@@ -5,58 +5,62 @@ function randomInteger(min, max) {
 }
 
 function getDisplayColor(itemStack){
-  if(itemStack.hasTag("nj:made_of_diamond")==true){
-    return "§b"
+  if(itemStack.hasTag("minecraft:diamond_tier")==true){
+    return "§s"
   }
-  if(itemStack.hasTag("nj:made_of_gold")==true){
-    return "§e"
+  if(itemStack.hasTag("minecraft:golden_tier")==true){
+    return "§p"
   }
-  if(itemStack.hasTag("nj:made_of_iron")==true){
+  if(itemStack.hasTag("minecraft:iron_tier")==true){
+    return "§i"
+  }
+  if(itemStack.hasTag("minecraft:stone_tier")==true){
     return "§7"
   }
-  if(itemStack.hasTag("nj:made_of_stone")==true){
-    return "§7"
-  }
-  if(itemStack.hasTag("nj:made_of_wood")==true){
+  if(itemStack.hasTag("minecraft:wooden_tier")==true){
     return "§6"
   }
-  if(itemStack.hasTag("nj:made_of_netherite")==true){
-    return "§8"
+  if(itemStack.hasTag("minecraft:netherite_tier")==true){
+    return "§j"
+  }
+  if(itemStack.hasTag("minecraft:copper_tier")==true){
+    return "§n"
   }
 }
 
 function toolusing(player,itemStack,isHittingEntities,target,i){
+  const color= getDisplayColor(itemStack)
   const packSettings = world.getPackSettings()
   const isDropEffectEnabled=packSettings["nj:enable_drop"]
   var weight=randomInteger(1, 100)
   console.log(`Random Weight is ${String(weight)}`)
   if(weight>=1&&weight<=3-i){
     player.addEffect("haste",60,{amplifier:0,showParticles:false})
-    player.sendMessage(`%nj.message.haste`)
+    player.sendMessage({translate:"nj.message.haste",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
   }
   if(weight>=4-i&&weight<=7-2*i){
     const durability=itemStack.getComponent("minecraft:durability");
     durability.damage -= 1;
     player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,itemStack)
-    player.sendMessage(`%nj.message.add_durability`)
+    player.sendMessage({translate:"nj.message.add_durability",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
   }
   if(weight>=8-2*i&&weight<=12-i){
     var damageamount=randomInteger(3, 5);
     const durability=itemStack.getComponent("minecraft:durability");
     durability.damage += damageamount;
     player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,itemStack)
-    player.sendMessage(`%nj.message.reduce_durability_lv1`)
+    player.sendMessage({translate:"nj.message.reduce_durability_lv1",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
   }
   if(weight>=13-i&&weight<=14){
     var damageamount=randomInteger(6, 10);
     const durability=itemStack.getComponent("minecraft:durability");
     durability.damage += damageamount;
     player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand,itemStack)
-    player.sendMessage(`%nj.message.reduce_durability_lv2`)
+    player.sendMessage({translate:"nj.message.reduce_durability_lv2",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
   }
   if(weight>=15&&weight<=17+i){
     player.applyDamage(4)
-    player.sendMessage(`%nj.message.damage`)
+    player.sendMessage({translate:"nj.message.damage",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
   }
   if(weight>=18+i&&weight<=19+2*i&&isDropEffectEnabled==true){
     var dimension=player.dimension
@@ -68,31 +72,31 @@ function toolusing(player,itemStack,isHittingEntities,target,i){
     player.getComponent("minecraft:equippable").setEquipment(EquipmentSlot.Mainhand)
     dimension.setBlockType(itemSummonLocation,"minecraft:air")
     dimension.spawnItem(itemStack,itemSummonLocation)
-    player.sendMessage(`%nj.message.drop`)
+    player.sendMessage({translate:"nj.message.drop",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
   }
   if(isHittingEntities==true){
     if(weight>=20+2*i&&weight<=21+2*i){
       target.applyDamage(4)
-      player.sendMessage(`%nj.message.damage_enemy`)
+      player.sendMessage({translate:"nj.message.damage_enemy",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
     }
     if(weight===22+2*i){
       var health=player.getComponent("minecraft:health")
       var currentValue=health.currentValue
       health.setCurrentValue(currentValue+2)
-      player.sendMessage(`%nj.message.add_health`)
+      player.sendMessage({translate:"nj.message.add_health",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
     }
     if(weight>=23+2*i&&weight<=27+i){
       var facingEntities=player.getEntitiesFromViewDirection({maxDistance:2})
       facingEntities.forEach((hit) => {
         hit.entity.applyDamage(2)
       })
-      player.sendMessage(`%nj.message.group_damage`)
+      player.sendMessage({translate:"nj.message.group_damage",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
     }
     if(weight>=28+i&&weight<=30+2*i){
       var health=target.getComponent("minecraft:health")
       var currentValue=health.currentValue
       health.setCurrentValue(currentValue+3)
-      player.sendMessage(`%nj.message.low_attack`)
+      player.sendMessage({translate:"nj.message.low_attack",with:{rawtext:[{translate:`${color}`},{translate:`item.${itemStack.typeId}`}]}})
     }
   }
 }

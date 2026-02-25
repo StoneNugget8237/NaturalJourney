@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:stone_shovel"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "X",
+      "Y",
+      "Z"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:cobblestone"
+      },
+      "Y": {
+        "item": "nj:stone_processing_template"
+      },
+      "Z": {
+        "item": "minecraft:wooden_shovel"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stone_shovel"
+    }
+  }
+}

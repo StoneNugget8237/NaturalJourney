@@ -10,7 +10,7 @@
         "component_groups":{
             "despawning": {
                 "minecraft:type_family": {
-                  "family": [ "banker", "mob" ]
+                  "family": [ "wandering_trader", "wandering_trader_despawning", "mob" ]
                 }
               },
               "minecraft:scared": {
@@ -128,7 +128,7 @@
                 ]
             },
             "minecraft:type_family": {
-                "family": [ "banker", "mob" ]
+                "family": [ "wandering_trader", "mob" ]
               },
               "minecraft:is_hidden_when_invisible": {
               },
@@ -148,7 +148,7 @@
                 "height": 1.9
               },
               "minecraft:movement": {
-                "value": 0.2
+                "value": 0.5
               },
               "minecraft:navigation.walk": {
                 "can_path_over_water": true,

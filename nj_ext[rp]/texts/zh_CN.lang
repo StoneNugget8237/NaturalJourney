@@ -1,16 +1,19 @@
 //core
 pack.name=自然行记·玩法扩展·资源包
-pack.description=自然行记·玩法扩展的配套资源包 | 测试版0.1.5-beta.3
-nj_ext.message.version=§b已成功加载自然行记·玩法扩展版本0.1.5-beta.3
+pack.description=自然行记·玩法扩展的配套资源包 | 正式版0.1.5
+nj_ext.message.version=§b已成功加载自然行记·玩法扩展版本0.1.5
 nj_ext.message.trial=§c您正在使用§l测试版本§r§c的自然行记·玩法扩展，可能伴随漏洞、不稳定和崩溃！
-nj_ext.message.update=§6当前版本更新内容：支持主包0.1.5-beta.3
+nj_ext.message.update=§6当前版本更新内容：支持隐藏之年²3.x版本
 nj_ext.message.copyright=§r本Addon由@StoneNugget主要制作，版权归属星屹工作室所有，同时感谢@RawDiamondMC对本Addon的贡献。您可在可信的发布渠道（如苦力怕论坛）向我们提出反馈！
 nj_ext.message.nonj=§c[自然行记·玩法扩展]自然行记本体未安装或版本有误，请安装或更新自然行记本体
 nj_ext.message.getaward=恭喜您，获得了奖品§c『%1』§r*%2
-nj_ext.message.nohy=§c[自然行记·玩法扩展]隐藏之年（²）未安装或版本有误，请安装或更新隐藏之年（²）
-nj_ext.message.nosc=§c[自然行记·玩法扩展]石头工艺未安装或版本有误，请安装或更新石头工艺
+nj_ext.message.nohy=§c[自然行记·玩法扩展]隐藏之年²未安装或版本有误，请安装或更新隐藏之年²
+nj_ext.message.nosc=§c[自然行记·玩法扩展]石头工艺/磐石之旅未安装或版本有误，请安装或更新石头工艺/磐石之旅
 nj_ext.message.lowversion=§c[自然行记·玩法扩展]不支持对Addon降级！世界中有Addon版本%1的加载记录,但当前使用的版本为%2
 nj_ext.meaasge.clearversionrecord=§6[自然行记·玩法扩展]成功在世界中移除了Addon加载版本记录
+nj_ext.message.hysc_guidance=[自然行记·玩法扩展]为了获得良好使用体验，您必须搭配以下附加包：
+nj_ext.message.hy=%1 隐藏之年²
+nj_ext.message.sc=%1 石头工艺/磐石之旅
 
 //gameplay
 entity.nj_ext:banker.name=奖券商人
@@ -25,7 +28,9 @@ nj_ext.item_name_display.copper_coin_lottery.earn=§r§l§b奖品：15~25铜币
 nj_ext.item_name_display.emerald_lottery.name=绿宝石奖券
 nj_ext.item_name_display.emerald_lottery.earn=§r§l§b奖品：17~23绿宝石
 nj_ext.item_name_display.diamond_coin_lottery.name=钻石奖券
-nj_ext.item_name_display.diamond_coin_lottery.earn=§r§l§b奖品：2~4钻石
+nj_ext.item_name_display.diamond_coin_lottery.earn=§r§l§b奖品：3~6钻石
 nj_ext.item_name_display.gold_coin_lottery.name=金币奖券
 nj_ext.item_name_display.gold_coin_lottery.earn=§r§l§b奖品：17~24金币
+nj_ext.item_name_display.echo_coin_lottery.name=回响硬币奖券
+nj_ext.item_name_display.echo_coin_lottery.earn=§r§l§b奖品：1~3回响硬币
 nj_ext:itemGroup.name.lotteries=奖券

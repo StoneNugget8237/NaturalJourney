@@ -20,7 +20,7 @@
                 "destroy_speeds": [
                   {
                     "block": {
-                      "tags": "query.any_tag('stone', 'metal', 'stone_pick_diggable','iron_pick_diggable','diamond_pick_diggable')"
+                      "tags": "query.any_tag('stone', 'metal', 'minecraft:stone_tier_destructible','minecraft:iron_tier_destructible')"
                     },
                     "speed": 4
                   },
